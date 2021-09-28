@@ -1,0 +1,287 @@
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
+DEBUG:root:New user just logged in, user: noam123
+ERROR:rest_api:Exception on /login [POST]
+Traceback (most recent call last):
+  File "D:\python-server\venv\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\python-server\venv\lib\site-packages\flask\app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\python-server\venv\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
+    resp = resource(*args, **kwargs)
+  File "D:\python-server\venv\lib\site-packages\flask\views.py", line 83, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "D:\python-server\venv\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "D:\python-server\rest_api.py", line 94, in post
+    sio.emitEvent(sio.Events.USER_LOGIN, DataBase.usersDictionary[userId])
+KeyError: 0
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:09:30] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'D:\\python-server\\rest_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'D:\\python-server\\rest_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:21:04] "[31m[1mPOST /submit/1 HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'D:\\python-server\\rest_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:23:27] "[31m[1mPOST /submit/1 HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'D:\\python-server\\rest_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:25:26] "[31m[1mPOST /submit/1 HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'D:\\python-server\\rest_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'D:\\python-server\\rest_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:27:40] "[35m[1mPOST /submit/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:28:36] "[35m[1mPOST /submit/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
+DEBUG:root:New user just logged in, user: noam123
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:29:04] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
+DEBUG:root:New user just logged in, user: noam123
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:29:11] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'D:\\python-server\\rest_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'D:\\python-server\\rest_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
+DEBUG:root:New user just logged in, user: noam123
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:29:53] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:30:13] "[35m[1mPOST /submit/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'D:\\python-server\\rest_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
+DEBUG:root:New user just logged in, user: noam123
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:32:45] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:32:52] "[35m[1mPOST /submit/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'D:\\python-server\\rest_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
+DEBUG:root:New user just logged in, user: noam123
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:36:48] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:37:16] "[35m[1mPOST /submit/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
+DEBUG:root:New user just logged in, user: noam123
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:37:44] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
+DEBUG:root:New user just logged in, user: noam123
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:40:41] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:40:57] "[35m[1mPOST /submit/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'D:\\python-server\\rest_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'D:\\python-server\\rest_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
+DEBUG:root:New user just logged in, user: noam123
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:47:30] "POST /login HTTP/1.1" 200 -
+INFO:root:file 'submittion_example.txt' saved at 'submission/level_1/user_0/file'
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:47:48] "POST /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
+DEBUG:root:New user just logged in, user: noam123
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:48:29] "POST /login HTTP/1.1" 200 -
+INFO:root:file 'submittion_example.txt' saved at 'submission/level_1/user_0/file.py'
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:48:35] "POST /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\python-server\\rest_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
+DEBUG:root:New user just logged in, user: noam123
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:49:17] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:49:18] "[35m[1mPOST /submit/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'D:\\python-server\\rest_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
+DEBUG:root:New user just logged in, user: noam123
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:50:40] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
+DEBUG:root:New user just logged in, user: noam123
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:51:22] "POST /login HTTP/1.1" 200 -
+INFO:root:file 'submittion_example.txt' saved at 'submission/level_1/user_0/file.txt'
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:51:27] "POST /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
+DEBUG:root:New user just logged in, user: noam123
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:51:45] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:52:33] "[35m[1mPOST /submit/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
+DEBUG:root:New user just logged in, user: noam123
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:52:43] "POST /login HTTP/1.1" 200 -
+INFO:root:file 'submittion_example.txt' saved at 'submission/level_1/user_0/file.txt'
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:52:54] "POST /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\python-server\\rest_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
+DEBUG:root:New user just logged in, user: noam123
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:53:50] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\python-server\\rest_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 881-532-174
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
