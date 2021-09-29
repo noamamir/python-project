@@ -28,6 +28,9 @@ class LevelTimer:
         self.__pauseSignal = False
         self.countdown()
 
+    def getCurrentTime(self):
+        return time.time()
+
     def countdown(self, remaining=None):
         if remaining is not None:
             self.timeLeft = remaining
