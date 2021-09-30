@@ -5,6 +5,5 @@ import rest_api
 from tools import socketio_server
 
 if __name__ == '__main__':
-    Thread(target=rest_api.initHttpServer()).start()
+    rest_api.initHttpServer()
     Thread(target=socketio_server.initSocketioServer(15006)).start()
-

@@ -37,6 +37,7 @@ class Events(Enum):
     USER_LOGIN = 'user-login'
     START_LEVEL = 'start-level'
     END_LEVEL = 'end-level'
+    CONTINUE_TIMER = 'continue-level'
     STOP_LEVEL = 'stop-level'
     NEXT_LEVEl = 'next-level'
     UPDATE_SCOREBOARD = 'update-scoreboard'

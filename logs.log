@@ -1211,3 +1211,292 @@ INFO:werkzeug: * Debugger PIN: 653-785-209
 WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:54:06] "OPTIONS /submit/1 HTTP/1.1" 200 -
+ERROR:root:Couldnt find user, please login again
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:54:06] "POST /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:54:21] "OPTIONS /login HTTP/1.1" 200 -
+DEBUG:root:New user just logged in, user: dsw
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:54:21] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:54:21] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:54:21] "OPTIONS /submissionTime/0 HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:54:21] "GET /submissionTime/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:54:31] "OPTIONS /submit/1 HTTP/1.1" 200 -
+INFO:root:file 'level.py' saved at 'submission/level_1/user_0/file.py'
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:54:31] "POST /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:54:36] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:54:37] "GET /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:59:01] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:59:01] "GET /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:59:10] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:59:11] "GET /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:59:20] "OPTIONS /submit/1 HTTP/1.1" 200 -
+INFO:root:file 'level.py' saved at 'submission/level_1/user_0/file.py'
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:59:20] "POST /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:59:20] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:59:20] "GET /submissionTime/1 HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 09:51:20] "OPTIONS /submissionTime/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 09:51:20] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 09:51:20] "GET /submissionTime/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 09:51:30] "OPTIONS /login HTTP/1.1" 200 -
+DEBUG:root:New user just logged in, user: dw2
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 09:51:30] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 09:51:30] "OPTIONS /submissionTime/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 09:51:31] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 09:51:31] "GET /submissionTime/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 09:51:40] "OPTIONS /submit/1 HTTP/1.1" 200 -
+INFO:root:file 'level.py' saved at 'submission/level_1/user_0/file.py'
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 09:51:40] "POST /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 09:51:41] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 09:51:41] "GET /submissionTime/1 HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:08:27] "[33mOPTIONS /setLevelTime/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:08:39] "[33mOPTIONS /setLevelTime/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:08:59] "[33mGET /setLevelTime/1 HTTP/1.1[0m" 404 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:10:46] "[33mOPTIONS /setLevelTime/1 HTTP/1.1[0m" 404 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:11:43] "[33mOPTIONS /setLevelTime/1 HTTP/1.1[0m" 404 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:12:24] "[33mOPTIONS /setLevelTime/1 HTTP/1.1[0m" 404 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:12:53] "OPTIONS /setLevelTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:13:40] "[31m[1mPOST /setLevelTime/1 HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:14:20] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:14:45] "GET /submissionTime/1 HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:15:55] "OPTIONS /setLevelTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:15:55] "[35m[1mPOST /setLevelTime/1 HTTP/1.1[0m" 500 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:16:21] "OPTIONS /setLevelTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:16:21] "[35m[1mPOST /setLevelTime/1 HTTP/1.1[0m" 500 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:17:43] "OPTIONS /setLevelTime/1 HTTP/1.1" 200 -
+WARNING:root:Password sent doesnt match the admin password
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:17:43] "POST /setLevelTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:17:57] "OPTIONS /setLevelTime/1 HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:19:34] "OPTIONS /setLevelTime/1 HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:20:27] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:20:56] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:21:30] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:23:21] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:23:31] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:24:37] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:24:42] "GET /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:24:42] "GET /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:24:42] "GET /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:25:26] "GET /timer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:25:31] "GET /timer HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:26:29] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:26:37] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:26:56] "OPTIONS /stopCurrentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:26:56] "POST /stopCurrentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:26:59] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Cannot Start new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:27:00] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:27:05] "OPTIONS /endCurrentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:27:06] "POST /endCurrentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:27:09] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Cannot Start new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:27:09] "POST /startLevel/1 HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:27:35] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:28:02] "POST /startLevel/1 HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:36:42] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:37:11] "[35m[1mPOST /startLevel/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:37:52] "GET /timer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:37:54] "GET /timer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:37:57] "GET /timer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:37:58] "GET /timer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:37:58] "GET /timer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:37:59] "GET /timer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:37:59] "GET /timer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:37:59] "GET /timer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:38:00] "GET /timer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:38:00] "GET /timer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:38:00] "GET /timer HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:38:01] "GET /timer HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:39:16] "[33mGET /timeleft HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:39:21] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:40:05] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:40:10] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:40:13] "[35m[1mPOST /startLevel/1 HTTP/1.1[0m" 500 -
+INFO:root:Cannot Start new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:40:13] "POST /startLevel/1 HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:40:56] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:40:57] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:41:06] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:41:06] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:41:07] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:41:07] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:41:07] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:41:07] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:41:08] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:41:08] "GET /timeLeft HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:42:47] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:42:48] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:42:56] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:42:57] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:42:57] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:42:58] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:42:58] "GET /timeLeft HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:45:13] "OPTIONS /setLevelTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:45:14] "POST /setLevelTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:45:20] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:45:20] "[35m[1mPOST /startLevel/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:46:24] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:46:24] "[35m[1mPOST /startLevel/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:46:33] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:46:33] "[35m[1mPOST /startLevel/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:46:45] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:46:45] "[35m[1mPOST /startLevel/1 HTTP/1.1[0m" 500 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:46:58] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:47:01] "POST /startLevel/1 HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:47:59] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:48:02] "POST /startLevel/1 HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:48:40] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:48:45] "POST /startLevel/1 HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:55:42] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:55:46] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:56:25] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:56:26] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:56:26] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:56:26] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:56:26] "GET /timeLeft HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:06:39] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:06:51] "[35m[1mPOST /startLevel/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:06:56] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:06:56] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:06:57] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:06:57] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:06:57] "GET /timeLeft HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:08:29] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:08:29] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:08:37] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:08:38] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:08:38] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:08:39] "GET /timeLeft HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:09:58] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:09:58] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:10:02] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:10:03] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:10:03] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:10:03] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:10:04] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:10:04] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:10:04] "GET /timeLeft HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:16:18] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:16:23] "[35m[1mPOST /startLevel/1 HTTP/1.1[0m" 500 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:20:23] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:20:30] "[35m[1mPOST /startLevel/1 HTTP/1.1[0m" 500 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:22:18] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:22:21] "POST /startLevel/1 HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:25:26] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:25:36] "[35m[1mPOST /startLevel/1 HTTP/1.1[0m" 500 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:27:34] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:27:46] "[35m[1mPOST /startLevel/1 HTTP/1.1[0m" 500 -

@@ -11,7 +11,7 @@ from tools import socketio_server as sio
 import logger
 from global_data import DataBase
 
-adminPassword = "admin"
+adminPassword = 'IAMTHEMANAGER'
 
 database = DataBase()
 
@@ -28,7 +28,6 @@ requestHeaderAuthorization.add_argument("Authorization", help="username of the u
 requestHeaderLevelTime = reqparse.RequestParser()
 requestHeaderLevelTime.add_argument("time", help="looking for key: time in the body of the request", required=True,
                                     location='headers')
-
 requestBodyFile = reqparse.RequestParser()
 requestBodyFile.add_argument("file", help="looking for file in body", type=datastructures.FileStorage,
                              required=True, location='files')
@@ -38,6 +37,7 @@ levelHandler: LevelHandler = LevelHandler(level=database.savedLevels[0])
 
 class Timer(Resource):
     def get(self):
+        print(levelHandler.timer.timeLeft)
         return levelHandler.timer.timeLeft
 
 
@@ -67,34 +67,51 @@ class SubmitLevel(Resource):
 
 class StopCurrentLevel(Resource):
     def post(self):
-        if levelHandler.timer.timeLeft is levelHandler.timer.levelTime:
-            logger.infoLog('Cannot stop the level, level hasnt been started')
+        password = requestHeaderAuthorization.parse_args().Authorization
+
+        if password == adminPassword:
+            if levelHandler.timer.timeLeft is levelHandler.timer.levelTime:
+                logger.infoLog('Cannot stop the level, level hasnt been started')
+            else:
+                levelHandler.timer.pauseTimer()
+                sio.emitEvent(sio.Events.STOP_LEVEL)
         else:
-            levelHandler.timer.pauseTimer()
-            sio.emitEvent(sio.Events.STOP_LEVEL)
+            logger.warningLog('Password sent doesnt match the admin password')
 
 
 class EndCurrentLevel(Resource):
     def post(self):
-        if levelHandler.timer.timeLeft is levelHandler.timer.levelTime:
-            logger.infoLog('Cannot end the level, level hasnt been started')
+        password = requestHeaderAuthorization.parse_args().Authorization
+        if password == adminPassword:
+            if levelHandler.timer.timeLeft is levelHandler.timer.levelTime:
+                logger.infoLog('Cannot end the level, level hasnt been started')
+            else:
+                levelHandler.timer.stopTimer()
         else:
-            levelHandler.timer.stopTimer()
-
+            logger.warningLog('Password sent doesnt match the admin password')
 
 class Compute(Resource):
     def post(self):
+        password = requestHeaderAuthorization.parse_args().password
+        if password == adminPassword:
+            pass
+        else:
+            logger.warningLog('Password sent doesnt match the admin password')
         return
 
 
 class StartLevel(Resource):
     def post(self, level):
-        if levelHandler.timer.timeLeft is not levelHandler.timer.levelTime:
-            logger.infoLog('Cannot Start new level, theres already a level in progress')
+        password = requestHeaderAuthorization.parse_args().Authorization
+        if password == adminPassword:
+            if levelHandler.timer.timeLeft is not levelHandler.timer.levelTime:
+                logger.infoLog('Cannot Start new level, theres already a level in progress')
+            else:
+                levelHandler.__init__(database.savedLevels[level - 1])
+                levelHandler.timer.countdown()
+                sio.emitEvent(sio.Events.START_LEVEL, levelHandler.level)
         else:
-            levelHandler.__init__(database.savedLevels[level - 1])
-            levelHandler.timer.countdown()
-            sio.emitEvent(sio.Events.START_LEVEL, levelHandler.level)
+            logger.warningLog('Password sent doesnt match the admin password')
 
 
 class GetCurrentLevel(Resource):
@@ -117,9 +134,13 @@ class Login(Resource):
 
 class SetLevelTime(Resource):
     def post(self, level):
-        args = requestHeaderLevelTime.parse_args()
-        database.savedLevels[level - 1].levelTime = args.time
-
+        print(request)
+        password = requestHeaderAuthorization.parse_args().Authorization
+        if password == adminPassword:
+            time = request.data
+            database.savedLevels[level - 1].levelTime = int(time * 60)
+        else:
+            logger.warningLog('Password sent doesnt match the admin password')
 
 class GetSubmissionTime(Resource):
     def get(self, level):
@@ -137,8 +158,8 @@ class GetSubmissionTime(Resource):
 
 api.add_resource(GetSubmissionTime, '/submissionTime/<int:level>')
 api.add_resource(SubmitLevel, '/submit/<int:levelNum>')
-api.add_resource(SetLevelTime, '/setleveltime/<int:level>')
-api.add_resource(Timer, '/timer')
+api.add_resource(SetLevelTime, '/setLevelTime/<int:level>')
+api.add_resource(Timer, '/timeLeft')
 api.add_resource(Login, '/login')
 api.add_resource(GetCurrentLevel, '/currentLevel')
 api.add_resource(StartLevel, '/startLevel/<int:level>')
