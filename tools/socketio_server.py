@@ -8,7 +8,6 @@ import logger
 serverio = socketio.Server()
 app = socketio.WSGIApp(serverio)
 
-
 def emitEvent(eventName, data=None):
     serverio.emit(data=data, event=eventName)
 

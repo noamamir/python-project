@@ -9,4 +9,4 @@ if __name__ == '__main__':
     q = Queue()
     Thread(target=rest_api.initHttpServer).start()
     Thread(target=socketio_server.initSocketioServer).start()
-    Thread(target=timer.initTimer).start()
+    Thread(target=timer.initDefualtTimer()).start()

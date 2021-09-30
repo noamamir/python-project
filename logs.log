@@ -468,3 +468,11 @@ INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
 WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:root:starting socketIo servoer on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:root:starting socketIo servoer on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)

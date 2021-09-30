@@ -1,7 +1,10 @@
+import threading
 import time
 from datetime import datetime
 import tkinter  as tk
 from tools import socketio_server as sio
+
+check = threading.Condition()
 
 class LevelTimer:
     def __init__(self, levelTime):
@@ -50,11 +53,17 @@ timer: LevelTimer = LevelTimer(1800)
 
 def timeout():
     sio.emitEvent(sio.Events.END_LEVEL)
+    check.acquire()
+    check.notify()
+    print("Timer notifies timeout")
+    check.release()
 
 
-def initTimer():
+def initDefualtTimer():
     timer.__init__(1800)
 
+def initTimer(seconds):
+    timer.__init__(seconds)
 
 def getTimer():
     return timer

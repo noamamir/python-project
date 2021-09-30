@@ -1,16 +1,21 @@
 import errno
 import os
+import threading
+
 from flask import Flask, request
+from flask_cors import CORS
 from flask_restful import Resource, Api, reqparse
-from flask_cors import CORS, cross_origin
 from werkzeug import datastructures
-from level_handler import LevelHandler
-from models.submittedLevel import SubmittedLevel
-from models.user import User
-from tools import socketio_server as sio
-from tools import level_timer as timer
+
+import computing_handler
 import logger
 from global_data import DataBase
+from level_handler import LevelHandler
+from models.scoreboard import Scoreboard
+from models.submittedLevel import SubmittedLevel
+from models.user import User
+from tools import level_timer as timer
+from tools import socketio_server as sio
 
 adminPassword = 'IAMTHEMANAGER'
 
@@ -34,6 +39,7 @@ requestBodyFile.add_argument("file", help="looking for file in body", type=datas
                              required=True, location='files')
 
 levelHandler: LevelHandler = LevelHandler(level=database.savedLevels[0])
+check = threading.Condition()
 
 
 class Timer(Resource):
@@ -117,7 +123,7 @@ class StartLevel(Resource):
                 else:
                     levelToStart = database.savedLevels[level - 1]
                     levelHandler.__init__(levelToStart)
-                    timer.initTimer(levelTime=levelToStart.levelTime)
+                    timer.initTimer()
                     logger.infoLog(f'Starting a new level, timer started for level {level}')
                     sio.emitEvent(sio.Events.START_LEVEL, levelHandler.level)
                     timer.getTimer().countdown()
@@ -166,6 +172,23 @@ class GetSubmissionTime(Resource):
         logger.warningLog('Couldnt get submittion time, user or level submittion invalid')
 
         return False
+
+
+def computeAtTimeout():
+    check.acquire()
+    check.wait()
+    compute()
+
+
+def compute():
+    levelNumber = levelHandler.level.levelNumber
+
+    logger.infoLog(f"Computing user results for level {levelNumber}")
+    levelUserResults = computing_handler.computeLevelScores(database.usersDictionary, levelNumber)
+    levelScoreboard: Scoreboard = Scoreboard(levelMaxPoints=database.savedLevels[levelNumber - 1].levelMaxPoints,
+                                             scores=levelUserResults)
+    database.scoreboards[levelNumber] = levelScoreboard
+    logger.infoLog(f"Successfully generated scoreboard for level {levelNumber}")
 
 
 api.add_resource(GetSubmissionTime, '/submissionTime/<int:level>')
