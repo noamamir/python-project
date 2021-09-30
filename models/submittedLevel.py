@@ -4,3 +4,4 @@ class SubmittedLevel:
         self.completionTime = completionTime
         self.timeLeft = timeLeft
         self.levelPath = levelPath
+        self.score = 0

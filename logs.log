@@ -1,1502 +1,470 @@
 WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
-DEBUG:root:New user just logged in, user: noam123
-ERROR:rest_api:Exception on /login [POST]
-Traceback (most recent call last):
-  File "D:\python-server\venv\lib\site-packages\flask\app.py", line 1513, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "D:\python-server\venv\lib\site-packages\flask\app.py", line 1499, in dispatch_request
-    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
-  File "D:\python-server\venv\lib\site-packages\flask_restful\__init__.py", line 467, in wrapper
-    resp = resource(*args, **kwargs)
-  File "D:\python-server\venv\lib\site-packages\flask\views.py", line 83, in view
-    return self.dispatch_request(*args, **kwargs)
-  File "D:\python-server\venv\lib\site-packages\flask_restful\__init__.py", line 582, in dispatch_request
-    resp = meth(*args, **kwargs)
-  File "D:\python-server\rest_api.py", line 94, in post
-    sio.emitEvent(sio.Events.USER_LOGIN, DataBase.usersDictionary[userId])
-KeyError: 0
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:09:30] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'D:\\python-server\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'D:\\python-server\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:21:04] "[31m[1mPOST /submit/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug: * Detected change in 'D:\\python-server\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:23:27] "[31m[1mPOST /submit/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug: * Detected change in 'D:\\python-server\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:25:26] "[31m[1mPOST /submit/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug: * Detected change in 'D:\\python-server\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'D:\\python-server\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:27:40] "[35m[1mPOST /submit/1 HTTP/1.1[0m" 500 -
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:28:36] "[35m[1mPOST /submit/1 HTTP/1.1[0m" 500 -
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
-DEBUG:root:New user just logged in, user: noam123
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:29:04] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
-DEBUG:root:New user just logged in, user: noam123
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:29:11] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
-INFO:werkzeug: * Detected change in 'D:\\python-server\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'D:\\python-server\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
-DEBUG:root:New user just logged in, user: noam123
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:29:53] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:30:13] "[35m[1mPOST /submit/1 HTTP/1.1[0m" 500 -
-INFO:werkzeug: * Detected change in 'D:\\python-server\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
-DEBUG:root:New user just logged in, user: noam123
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:32:45] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:32:52] "[35m[1mPOST /submit/1 HTTP/1.1[0m" 500 -
-INFO:werkzeug: * Detected change in 'D:\\python-server\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
-DEBUG:root:New user just logged in, user: noam123
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:36:48] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:37:16] "[35m[1mPOST /submit/1 HTTP/1.1[0m" 500 -
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
-DEBUG:root:New user just logged in, user: noam123
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:37:44] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
-DEBUG:root:New user just logged in, user: noam123
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:40:41] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:40:57] "[35m[1mPOST /submit/1 HTTP/1.1[0m" 500 -
-INFO:werkzeug: * Detected change in 'D:\\python-server\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'D:\\python-server\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
-DEBUG:root:New user just logged in, user: noam123
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:47:30] "POST /login HTTP/1.1" 200 -
-INFO:root:file 'submittion_example.txt' saved at 'submission/level_1/user_0/file'
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:47:48] "POST /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
-DEBUG:root:New user just logged in, user: noam123
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:48:29] "POST /login HTTP/1.1" 200 -
-INFO:root:file 'submittion_example.txt' saved at 'submission/level_1/user_0/file.py'
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:48:35] "POST /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'D:\\python-server\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
-DEBUG:root:New user just logged in, user: noam123
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:49:17] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:49:18] "[35m[1mPOST /submit/1 HTTP/1.1[0m" 500 -
-INFO:werkzeug: * Detected change in 'D:\\python-server\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
-DEBUG:root:New user just logged in, user: noam123
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:50:40] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
-DEBUG:root:New user just logged in, user: noam123
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:51:22] "POST /login HTTP/1.1" 200 -
-INFO:root:file 'submittion_example.txt' saved at 'submission/level_1/user_0/file.txt'
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:51:27] "POST /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
-DEBUG:root:New user just logged in, user: noam123
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:51:45] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:52:33] "[35m[1mPOST /submit/1 HTTP/1.1[0m" 500 -
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
-DEBUG:root:New user just logged in, user: noam123
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:52:43] "POST /login HTTP/1.1" 200 -
-INFO:root:file 'submittion_example.txt' saved at 'submission/level_1/user_0/file.txt'
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:52:54] "POST /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'D:\\python-server\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
-DEBUG:root:New user just logged in, user: noam123
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 01:53:50] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'D:\\python-server\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 881-532-174
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.1.24:8080/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 482-649-974
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8080/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 482-649-974
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8080/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 482-649-974
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8080/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 11:33:22] "[31m[1mGET /login HTTP/1.1[0m" 405 -
-DEBUG:root:New user just logged in, user: noam123
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 11:33:33] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\logger.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 482-649-974
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8080/ (Press CTRL+C to quit)
-DEBUG:root:New user just logged in, user: noam123
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 11:35:58] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 482-649-974
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8080/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 11:43:26] "[31m[1mGET /submit/1 HTTP/1.1[0m" 405 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 11:43:32] "[31m[1mPOST /submit/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 11:48:03] "[31m[1mPOST /submit/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 11:48:22] "[31m[1mPOST /submit/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 11:48:46] "[35m[1mPOST /submit/1 HTTP/1.1[0m" 500 -
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 482-649-974
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8080/ (Press CTRL+C to quit)
-DEBUG:root:New user just logged in, user: noam123
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 11:49:09] "POST /login HTTP/1.1" 200 -
-INFO:root:file 'nigga12.txt' saved at 'submission/level_1/user_0/file.txt'
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 11:49:12] "POST /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8080/ (Press CTRL+C to quit)
-DEBUG:root:New user just logged in, user: noam123
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 13:31:02] "POST /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: noam123
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 13:31:19] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 13:31:54] "[33mGET / HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 13:31:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-DEBUG:root:New user just logged in, user: noam123
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 13:32:03] "POST /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: noam123
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 13:32:08] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-DEBUG:root:New user just logged in, user: noam123
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 14:29:34] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-DEBUG:root:New user just logged in, user: noam123
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 14:40:15] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-DEBUG:root:New user just logged in, user: noam123
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 14:45:58] "POST /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: noam123
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 14:48:04] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 14:49:48] "OPTIONS /login HTTP/1.1" 200 -
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 14:50:06] "OPTIONS /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 14:50:11] "OPTIONS /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 14:51:14] "OPTIONS /login HTTP/1.1" 200 -
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 14:55:43] "OPTIONS /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 14:55:43] "OPTIONS /login HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 14:59:15] "OPTIONS /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: eds
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 14:59:53] "POST /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: eds
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 14:59:53] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:00:04] "OPTIONS /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: eds2
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:00:10] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:00:48] "OPTIONS /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: eds2
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:00:51] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:01:05] "OPTIONS /login HTTP/1.1" 200 -
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:01:23] "OPTIONS /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: 2322
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:01:24] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:02:09] "OPTIONS /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: 2322h
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:02:10] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:02:14] "[31m[1mGET /login HTTP/1.1[0m" 405 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:02:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:03:29] "OPTIONS /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: sssss
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:03:30] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:03:52] "OPTIONS /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: sssssv
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:03:52] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:04:52] "OPTIONS /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: po
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:04:52] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:07:49] "OPTIONS /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: po
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:07:50] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:08:31] "OPTIONS /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: ds
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:08:31] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:08:46] "OPTIONS /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: grt
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:08:46] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:09:48] "OPTIONS /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: ds
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:09:49] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:13:56] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:13:56] "[33mGET /submissionTime/0 HTTP/1.1[0m" 404 -
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:16:46] "OPTIONS /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: 32132
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:16:46] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:16:52] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:16:52] "[33mGET /submissionTime/0 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:18:29] "[33mGET /submissionTime/1 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:19:54] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:19:54] "[33mGET /submissionTime/0 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:20:07] "[33mGET /submissionTime/0 HTTP/1.1[0m" 404 -
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:24:05] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:24:23] "GET /submissionTime/0 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:25:33] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:25:38] "GET /submissionTime/0 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:26:22] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:26:26] "GET /submissionTime/0 HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:31:40] "[33mPOST /submit/ HTTP/1.1[0m" 404 -
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\models\\user.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:47:44] "[33mPOST /submit/ HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:50:26] "[31m[1mGET /submissionTime/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:50:51] "OPTIONS /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: ds
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:50:51] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:50:51] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:50:52] "[31m[1mGET /submissionTime/0 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:51:22] "[31m[1mPOST /submit/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:53:00] "[31m[1mGET /submissionTime/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:53:02] "[31m[1mGET /submissionTime/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:53:08] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:53:13] "[31m[1mPOST /submit/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:54:01] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:55:03] "[31m[1mPOST /submit/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:55:12] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:55:16] "[31m[1mPOST /submit/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:55:23] "[31m[1mGET /submissionTime/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:55:28] "[31m[1mGET /submissionTime/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:55:52] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 15:59:21] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:00:12] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:00:12] "[35m[1mPOST /submit/1 HTTP/1.1[0m" 500 -
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:00:49] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:01:39] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:01:39] "[35m[1mPOST /submit/1 HTTP/1.1[0m" 500 -
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:02:13] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:04:35] "[31m[1mGET /submissionTime/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:04:36] "[31m[1mGET /submissionTime/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:06:25] "[31m[1mGET /submissionTime/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:06:25] "[31m[1mGET /submissionTime/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:07:54] "[31m[1mGET /submissionTime/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:07:55] "[31m[1mGET /submissionTime/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:09:58] "[31m[1mGET /submissionTime/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:09:58] "[31m[1mGET /submissionTime/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:10:27] "[31m[1mGET /submissionTime/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:10:28] "[31m[1mGET /submissionTime/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:10:46] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:11:13] "[31m[1mPOST /submit/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:11:36] "[31m[1mGET /submissionTime/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:11:44] "[31m[1mGET /submissionTime/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:13:37] "[31m[1mGET /submissionTime/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:19:34] "[31m[1mGET /submissionTime/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:19:52] "[31m[1mGET /submissionTime/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:20:22] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:21:13] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:24:42] "[31m[1mGET /submissionTime/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:25:07] "[31m[1mGET /submissionTime/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:25:29] "[31m[1mGET /submissionTime/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:26:06] "[31m[1mPOST /submit/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:26:07] "[31m[1mPOST /submit/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:28:36] "OPTIONS /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: 43
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:28:37] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:28:39] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:28:39] "[31m[1mGET /submissionTime/0 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:29:08] "[31m[1mPOST /submit/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:29:08] "[31m[1mPOST /submit/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:29:50] "[31m[1mGET /submissionTime/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:29:54] "OPTIONS /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: ds
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:29:54] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:29:54] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:29:55] "[31m[1mGET /submissionTime/0 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:30:59] "[31m[1mGET /submissionTime/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:31:14] "OPTIONS /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: dsw2
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:31:14] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:31:23] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:31:23] "[31m[1mGET /submissionTime/0 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:31:35] "[31m[1mPOST /submit/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:33:54] "[31m[1mGET /submissionTime/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:33:55] "[31m[1mGET /submissionTime/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:34:01] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:34:01] "[31m[1mGET /submissionTime/0 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:34:14] "[31m[1mPOST /submit/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:34:20] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:root:file 'level.py' saved at 'submission/level_1/user_2/file.py'
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:34:31] "POST /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:37:50] "[31m[1mGET /submissionTime/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:38:18] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:38:18] "[31m[1mGET /submissionTime/0 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:38:28] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:38:28] "[35m[1mPOST /submit/1 HTTP/1.1[0m" 500 -
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:39:32] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:39:42] "[35m[1mPOST /submit/1 HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:41:27] "OPTIONS /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: 3245
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:41:27] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:41:31] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:41:32] "[31m[1mGET /submissionTime/0 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:41:44] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:root:file 'level.py' saved at 'submission/level_1/user_0/file.py'
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:41:48] "POST /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\tools\\level_timer.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\tools\\level_timer.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\global_data.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\global_data.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\models\\user.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\global_data.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\global_data.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\global_data.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:59:25] "[31m[1mGET /submissionTime/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:59:35] "OPTIONS /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: s
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:59:35] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:59:39] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:59:39] "[31m[1mGET /submissionTime/0 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:59:49] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 16:59:49] "[35m[1mPOST /submit/1 HTTP/1.1[0m" 500 -
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\global_data.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\global_data.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:03:09] "OPTIONS /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: ds
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:03:09] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:03:12] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:03:13] "[31m[1mGET /submissionTime/0 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:03:22] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:03:23] "[35m[1mPOST /submit/1 HTTP/1.1[0m" 500 -
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:03:57] "OPTIONS /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: ds
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:03:57] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:04:00] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:04:00] "[31m[1mGET /submissionTime/0 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:04:15] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:04:16] "[35m[1mPOST /submit/1 HTTP/1.1[0m" 500 -
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:04:42] "OPTIONS /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:04:42] "OPTIONS /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: ew
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:04:42] "POST /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: ew
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:04:42] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:04:46] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:04:47] "[31m[1mGET /submissionTime/0 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:05:03] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:05:17] "[35m[1mPOST /submit/1 HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:06:31] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:08:53] "[35m[1mPOST /submit/1 HTTP/1.1[0m" 500 -
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\models\\submittedLevel.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:18:04] "OPTIONS /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: ds
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:18:05] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:18:10] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:18:10] "[31m[1mGET /submissionTime/0 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:18:20] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:18:20] "[35m[1mPOST /submit/1 HTTP/1.1[0m" 500 -
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:19:19] "OPTIONS /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: das
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:19:19] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:19:22] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:19:22] "[31m[1mGET /submissionTime/0 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:19:32] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:19:32] "[35m[1mPOST /submit/1 HTTP/1.1[0m" 500 -
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:20:06] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:20:15] "[35m[1mPOST /submit/1 HTTP/1.1[0m" 500 -
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:20:54] "OPTIONS /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: sdswa
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:20:54] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:20:57] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:20:57] "[31m[1mGET /submissionTime/0 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:21:06] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:21:20] "[35m[1mPOST /submit/1 HTTP/1.1[0m" 500 -
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\models\\user.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\models\\user.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:22:48] "OPTIONS /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: a
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:22:49] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:22:54] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:22:54] "[31m[1mGET /submissionTime/0 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:23:04] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\submission\\level_1\\user_0\\file.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:27:13] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:27:26] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:27:42] "[35m[1mPOST /submit/1 HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:27:42] "[35m[1mGET /submissionTime/1 HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:27:53] "OPTIONS /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: swwew
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:27:54] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:27:57] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:27:57] "OPTIONS /submissionTime/0 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:28:08] "[35m[1mGET /submissionTime/0 HTTP/1.1[0m" 500 -
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\global_data.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\global_data.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\global_data.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\models\\user.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 14:47:55] "OPTIONS /startLevel/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 14:48:10] "OPTIONS /startLevel/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 14:48:11] "POST /startLevel/3 HTTP/1.1" 200 -
 WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 14:49:04] "OPTIONS /startLevel/2 HTTP/1.1" 200 -
 WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 14:49:30] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 14:49:30] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 14:49:45] "OPTIONS /startLevel/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 14:49:46] "OPTIONS /startLevel/3 HTTP/1.1" 200 -
+WARNING:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 14:49:47] "POST /startLevel/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 14:49:56] "OPTIONS /startLevel/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 14:49:56] "POST /startLevel/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 14:50:02] "OPTIONS /stopCurrentLevel HTTP/1.1" 200 -
+INFO:root:level paused, timer stopped
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 14:50:02] "POST /stopCurrentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 14:50:03] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+WARNING:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 14:50:04] "POST /startLevel/1 HTTP/1.1" 200 -
 WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 14:51:35] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 14:51:35] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 14:51:38] "OPTIONS /startLevel/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 14:51:41] "OPTIONS /stopCurrentLevel HTTP/1.1" 200 -
+INFO:root:level paused, timer stopped
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 14:51:42] "POST /stopCurrentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 14:51:42] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+WARNING:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 14:51:43] "POST /startLevel/1 HTTP/1.1" 200 -
 WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:11:16] "OPTIONS /startLevel/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:11:25] "OPTIONS /startLevel/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:11:44] "POST /startLevel/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:11:58] "OPTIONS /startLevel/3 HTTP/1.1" 200 -
+INFO:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:12:22] "POST /startLevel/3 HTTP/1.1" 200 -
 WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:40:03] "OPTIONS /submissionTime/0 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:40:03] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:40:11] "[35m[1mGET /submissionTime/0 HTTP/1.1[0m" 500 -
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\global_data.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:12:50] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:13:34] "POST /startLevel/1 HTTP/1.1" 200 -
 WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\models\\user.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:16:15] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:16:15] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:16:16] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:16:16] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:16:21] "OPTIONS /startLevel/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:16:28] "POST /startLevel/2 HTTP/1.1" 200 -
 WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\models\\user.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:16:45] "OPTIONS /startLevel/3 HTTP/1.1" 200 -
 WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:42:05] "OPTIONS /submissionTime/0 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:42:05] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
-ERROR:root:Couldnt get submittion time, user or level submittion invalid
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:42:15] "GET /submissionTime/0 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:43:57] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:43:57] "OPTIONS /submissionTime/0 HTTP/1.1" 200 -
-ERROR:root:Couldnt get submittion time, user or level submittion invalid
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:44:04] "GET /submissionTime/0 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:44:29] "OPTIONS /submissionTime/0 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:44:30] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
-ERROR:root:Couldnt get submittion time, user or level submittion invalid
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:44:40] "GET /submissionTime/0 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:44:45] "OPTIONS /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: s223
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:44:45] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:44:45] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:44:46] "OPTIONS /submissionTime/0 HTTP/1.1" 200 -
-ERROR:root:Couldnt get submittion time, user or level submittion invalid
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:44:46] "GET /submissionTime/0 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:44:56] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\submission\\level_1\\user_0\\file.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:17:21] "OPTIONS /startLevel/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:18:05] "POST /startLevel/3 HTTP/1.1" 200 -
 WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:45:27] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:45:50] "[35m[1mPOST /submit/1 HTTP/1.1[0m" 500 -
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
 WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:20:15] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
 WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:48:46] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
-ERROR:root:Couldnt get submittion time, user or level submittion invalid
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:48:46] "GET /submissionTime/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:48:52] "OPTIONS /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: z
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:48:53] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:48:53] "OPTIONS /submissionTime/0 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:48:53] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
-ERROR:root:Couldnt get submittion time, user or level submittion invalid
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:48:53] "GET /submissionTime/0 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:49:03] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:root:file 'level.py' saved at 'submission/level_1/user_0/file.py'
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:49:03] "POST /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\submission\\level_1\\user_0\\file.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:21:30] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
 WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:49:31] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
-ERROR:root:Couldnt get submittion time, user or level submittion invalid
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:49:56] "GET /submissionTime/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:50:18] "OPTIONS /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: z2
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:50:18] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:50:18] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:50:18] "OPTIONS /submissionTime/0 HTTP/1.1" 200 -
-ERROR:root:Couldnt get submittion time, user or level submittion invalid
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:50:23] "GET /submissionTime/0 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:50:31] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:root:file 'level.py' saved at 'submission/level_1/user_0/file.py'
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:50:32] "POST /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\submission\\level_1\\user_0\\file.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:22:43] "OPTIONS /startLevel/3 HTTP/1.1" 200 -
 WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:51:00] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
-ERROR:root:Couldnt get submittion time, user or level submittion invalid
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:51:15] "GET /submissionTime/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:51:25] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
-ERROR:root:Couldnt get submittion time, user or level submittion invalid
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:51:33] "GET /submissionTime/1 HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:23:21] "OPTIONS /startLevel/3 HTTP/1.1" 200 -
 WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:29:11] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:29:21] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:29:21] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:29:56] "OPTIONS /startLevel/2 HTTP/1.1" 200 -
+INFO:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:29:56] "POST /startLevel/2 HTTP/1.1" 200 -
 WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:52:13] "OPTIONS /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: ds3
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:52:13] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:52:13] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:52:13] "OPTIONS /submissionTime/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:30:05] "OPTIONS /startLevel/3 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 3
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:02] "OPTIONS /setLevelTime/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:02] "POST /setLevelTime/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:02] "POST /setLevelTime/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:02] "POST /setLevelTime/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:03] "POST /setLevelTime/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:03] "POST /setLevelTime/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:03] "POST /setLevelTime/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:03] "POST /setLevelTime/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:06] "[33mGET /control HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:10] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:12] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:12] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:24] "OPTIONS /setLevelTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:24] "POST /setLevelTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:25] "POST /setLevelTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:25] "POST /setLevelTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:29] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:29] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:30] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:30] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:30] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:30] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:31] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:34] "OPTIONS /setLevelTime/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:34] "POST /setLevelTime/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:35] "POST /setLevelTime/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:37] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:37] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:38] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:44] "OPTIONS /startLevel/3 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 3
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:49] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:50] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:50] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:50] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:50] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:51] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:34:51] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:35:00] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:35:00] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:35:01] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:35:01] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:35:47] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:35:48] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:35:49] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:35:49] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:36:02] "OPTIONS /stopCurrentLevel HTTP/1.1" 200 -
+INFO:root:level paused, timer stopped
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:36:03] "POST /stopCurrentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:36:07] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:36:07] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:36:08] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:36:08] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:36:08] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:36:09] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:36:09] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:36:13] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:36:13] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:36:15] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:36:15] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:36:16] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:36:16] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:36:16] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:36:17] "GET /timeLeft HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:37:48] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:38:01] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:38:01] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:38:16] "OPTIONS /stopCurrentLevel HTTP/1.1" 200 -
+INFO:root:level paused, timer stopped
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:38:16] "POST /stopCurrentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:38:19] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:39:16] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:39:16] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:39:16] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:39:17] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:39:17] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:39:18] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:39:18] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:39:19] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:39:23] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:39:26] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:39:29] "OPTIONS /stopCurrentLevel HTTP/1.1" 200 -
+INFO:root:level paused, timer stopped
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:39:29] "POST /stopCurrentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:39:32] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:39:33] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:39:33] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:39:33] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:39:36] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:39:45] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:39:46] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:39:46] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:39:47] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:39:47] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:39:49] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:39:49] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:39:50] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:39:51] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:39:51] "GET /timeLeft HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:40:32] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:40:32] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:40:36] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:40:38] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:40:38] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:40:39] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:40:39] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:40:40] "GET /timeLeft HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:40:46] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:40:47] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:40:47] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:40:48] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:40:55] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:40:59] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:41:27] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:41:27] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:41:28] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:41:28] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:41:28] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:41:29] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:41:32] "OPTIONS /stopCurrentLevel HTTP/1.1" 200 -
+INFO:root:level paused, timer stopped
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:41:32] "POST /stopCurrentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:41:36] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:41:37] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:41:37] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:41:38] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:41:38] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:41:38] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:41:38] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:41:39] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:41:42] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Continuing level 1, timer continues at: 1751
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:41:51] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:41:52] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:41:53] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:41:53] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:41:54] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:41:55] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:41:56] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:41:57] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:41:59] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:42:03] "GET /timeLeft HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:43:13] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:43:13] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:43:16] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:43:37] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:43:53] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:43:57] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:43:57] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:43:58] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:43:58] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:43:58] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:44:00] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:44:00] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:44:01] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:44:01] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:44:05] "OPTIONS /stopCurrentLevel HTTP/1.1" 200 -
+INFO:root:level paused, timer stopped
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:44:05] "POST /stopCurrentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:44:09] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:44:10] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:44:10] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:44:11] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:44:11] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:44:11] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:44:16] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Continuing level 1, timer continues at: 1764
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:44:36] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:44:37] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:44:37] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:44:38] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:44:38] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:44:39] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:44:39] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:44:39] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:44:40] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:44:40] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:44:40] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:44:40] "GET /timeLeft HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:10] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:10] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:15] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:17] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:19] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:19] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:20] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:20] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:20] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:22] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:23] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:24] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:25] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:25] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:26] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:27] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:28] "OPTIONS /stopCurrentLevel HTTP/1.1" 200 -
+INFO:root:level paused, timer stopped
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:29] "POST /stopCurrentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:29] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:30] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:31] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:31] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:32] "GET /timeLeft HTTP/1.1" 200 -
+INFO:root:level paused, timer stopped
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:33] "POST /stopCurrentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:35] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Continuing level 1, timer continues at: 1786
+INFO:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:36] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:38] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:39] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:39] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:40] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:40] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:40] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:40] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:44] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:44] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:45] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:45] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:45] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:45] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:45] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:47] "OPTIONS /endCurrentLevel HTTP/1.1" 200 -
+INFO:root:level ended, timer stopped
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:47] "POST /endCurrentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:49] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:49] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:50] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:50] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:50] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:50] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:51] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:45:51] "GET /timeLeft HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:46:49] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:46:57] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:root:Starting a new level, timer started for level 1
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:00] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:00] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:01] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:02] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:03] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:04] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:05] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:05] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:06] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:06] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:08] "OPTIONS /stopCurrentLevel HTTP/1.1" 200 -
+INFO:root:level paused, timer stopped
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:08] "POST /stopCurrentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:08] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:09] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:12] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:13] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:14] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:15] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:15] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:17] "OPTIONS /stopCurrentLevel HTTP/1.1" 200 -
+INFO:root:level paused, timer stopped
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:17] "POST /stopCurrentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:19] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:19] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:20] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:20] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:22] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Continuing level 1, timer continues at: 1778
+INFO:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:24] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:25] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:25] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:26] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:26] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:27] "OPTIONS /endCurrentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:28] "OPTIONS /endCurrentLevel HTTP/1.1" 200 -
+INFO:root:level ended, timer stopped
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:28] "POST /endCurrentLevel HTTP/1.1" 200 -
+INFO:root:level ended, timer stopped
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:28] "POST /endCurrentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:29] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:30] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:30] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:31] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:41] "OPTIONS /submissionTime/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:41] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
 WARNING:root:Couldnt get submittion time, user or level submittion invalid
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:52:13] "GET /submissionTime/0 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:52:22] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:root:file 'level.py' saved at 'submission/level_1/user_0/file.py'
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:52:22] "POST /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\submission\\level_1\\user_0\\file.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\python-server\\python-project\\rest_api.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 653-785-209
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:54:06] "OPTIONS /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:41] "GET /submissionTime/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:55] "OPTIONS /submit/1 HTTP/1.1" 200 -
 ERROR:root:Couldnt find user, please login again
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:54:06] "POST /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:54:21] "OPTIONS /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: dsw
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:54:21] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:54:21] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:54:21] "OPTIONS /submissionTime/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:56] "POST /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:56] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
 WARNING:root:Couldnt get submittion time, user or level submittion invalid
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:54:21] "GET /submissionTime/0 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:54:31] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:root:file 'level.py' saved at 'submission/level_1/user_0/file.py'
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:54:31] "POST /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:54:36] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:54:37] "GET /submissionTime/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:59:01] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:59:01] "GET /submissionTime/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:59:10] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:59:11] "GET /submissionTime/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:59:20] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:root:file 'level.py' saved at 'submission/level_1/user_0/file.py'
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:59:20] "POST /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:59:20] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [29/Sep/2021 17:59:20] "GET /submissionTime/1 HTTP/1.1" 200 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 09:51:20] "OPTIONS /submissionTime/0 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 09:51:20] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:47:56] "GET /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:48:07] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
 WARNING:root:Couldnt get submittion time, user or level submittion invalid
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 09:51:20] "GET /submissionTime/0 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 09:51:30] "OPTIONS /login HTTP/1.1" 200 -
-DEBUG:root:New user just logged in, user: dw2
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 09:51:30] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 09:51:30] "OPTIONS /submissionTime/0 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 09:51:31] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:48:07] "GET /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:48:32] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:48:33] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:48:56] "OPTIONS /submissionTime/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:49:07] "OPTIONS /submit/1 HTTP/1.1" 200 -
+ERROR:root:Couldnt find user, please login again
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:49:07] "POST /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:49:07] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
 WARNING:root:Couldnt get submittion time, user or level submittion invalid
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 09:51:31] "GET /submissionTime/0 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 09:51:40] "OPTIONS /submit/1 HTTP/1.1" 200 -
-INFO:root:file 'level.py' saved at 'submission/level_1/user_0/file.py'
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 09:51:40] "POST /submit/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 09:51:41] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 09:51:41] "GET /submissionTime/1 HTTP/1.1" 200 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:08:27] "[33mOPTIONS /setLevelTime/1 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:08:39] "[33mOPTIONS /setLevelTime/1 HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:08:59] "[33mGET /setLevelTime/1 HTTP/1.1[0m" 404 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:10:46] "[33mOPTIONS /setLevelTime/1 HTTP/1.1[0m" 404 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:11:43] "[33mOPTIONS /setLevelTime/1 HTTP/1.1[0m" 404 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:12:24] "[33mOPTIONS /setLevelTime/1 HTTP/1.1[0m" 404 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:12:53] "OPTIONS /setLevelTime/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:13:40] "[31m[1mPOST /setLevelTime/1 HTTP/1.1[0m" 400 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:14:20] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:49:07] "GET /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:52:27] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
 WARNING:root:Couldnt get submittion time, user or level submittion invalid
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:14:45] "GET /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 15:52:28] "GET /submissionTime/1 HTTP/1.1" 200 -
 WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:15:55] "OPTIONS /setLevelTime/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:15:55] "[35m[1mPOST /setLevelTime/1 HTTP/1.1[0m" 500 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:16:21] "OPTIONS /setLevelTime/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:16:21] "[35m[1mPOST /setLevelTime/1 HTTP/1.1[0m" 500 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:17:43] "OPTIONS /setLevelTime/1 HTTP/1.1" 200 -
-WARNING:root:Password sent doesnt match the admin password
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:17:43] "POST /setLevelTime/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:17:57] "OPTIONS /setLevelTime/1 HTTP/1.1" 200 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:19:34] "OPTIONS /setLevelTime/1 HTTP/1.1" 200 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:20:27] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:20:56] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:21:30] "POST /startLevel/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:23:21] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:23:31] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:24:37] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
-WARNING:root:Couldnt get submittion time, user or level submittion invalid
-WARNING:root:Couldnt get submittion time, user or level submittion invalid
-WARNING:root:Couldnt get submittion time, user or level submittion invalid
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:24:42] "GET /submissionTime/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:24:42] "GET /submissionTime/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:24:42] "GET /submissionTime/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:25:26] "GET /timer HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:25:31] "GET /timer HTTP/1.1" 200 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:26:29] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:26:37] "POST /startLevel/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:26:56] "OPTIONS /stopCurrentLevel HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:26:56] "POST /stopCurrentLevel HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:26:59] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
-INFO:root:Cannot Start new level, theres already a level in progress
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:27:00] "POST /startLevel/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:27:05] "OPTIONS /endCurrentLevel HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:27:06] "POST /endCurrentLevel HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:27:09] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
-INFO:root:Cannot Start new level, theres already a level in progress
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:27:09] "POST /startLevel/1 HTTP/1.1" 200 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:27:35] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:28:02] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:root:starting socketIo servoer on port 15006
 WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
 WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:36:42] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:37:11] "[35m[1mPOST /startLevel/1 HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:37:52] "GET /timer HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:37:54] "GET /timer HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:37:57] "GET /timer HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:37:58] "GET /timer HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:37:58] "GET /timer HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:37:59] "GET /timer HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:37:59] "GET /timer HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:37:59] "GET /timer HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:38:00] "GET /timer HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:38:00] "GET /timer HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:38:00] "GET /timer HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:38:01] "GET /timer HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
+INFO:root:starting socketIo servoer on port 15006
+INFO:root:starting socketIo servoer on port 15006
 WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
 WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:39:16] "[33mGET /timeleft HTTP/1.1[0m" 404 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:39:21] "GET /timeLeft HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:40:05] "GET /timeLeft HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:40:10] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:40:13] "[35m[1mPOST /startLevel/1 HTTP/1.1[0m" 500 -
-INFO:root:Cannot Start new level, theres already a level in progress
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:40:13] "POST /startLevel/1 HTTP/1.1" 200 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:40:56] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:40:57] "POST /startLevel/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:41:06] "GET /timeLeft HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:41:06] "GET /timeLeft HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:41:07] "GET /timeLeft HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:41:07] "GET /timeLeft HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:41:07] "GET /timeLeft HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:41:07] "GET /timeLeft HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:41:08] "GET /timeLeft HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:41:08] "GET /timeLeft HTTP/1.1" 200 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:42:47] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:42:48] "POST /startLevel/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:42:56] "GET /timeLeft HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:42:57] "GET /timeLeft HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:42:57] "GET /timeLeft HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:42:58] "GET /timeLeft HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:42:58] "GET /timeLeft HTTP/1.1" 200 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:45:13] "OPTIONS /setLevelTime/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:45:14] "POST /setLevelTime/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:45:20] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:45:20] "[35m[1mPOST /startLevel/1 HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:46:24] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:46:24] "[35m[1mPOST /startLevel/1 HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:46:33] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:46:33] "[35m[1mPOST /startLevel/1 HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:46:45] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:46:45] "[35m[1mPOST /startLevel/1 HTTP/1.1[0m" 500 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:46:58] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:47:01] "POST /startLevel/1 HTTP/1.1" 200 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:47:59] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:48:02] "POST /startLevel/1 HTTP/1.1" 200 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:48:40] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:48:45] "POST /startLevel/1 HTTP/1.1" 200 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:55:42] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:55:46] "POST /startLevel/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:56:25] "GET /timeLeft HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:56:26] "GET /timeLeft HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:56:26] "GET /timeLeft HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:56:26] "GET /timeLeft HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 10:56:26] "GET /timeLeft HTTP/1.1" 200 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:06:39] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:06:51] "[35m[1mPOST /startLevel/1 HTTP/1.1[0m" 500 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:06:56] "GET /timeLeft HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:06:56] "GET /timeLeft HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:06:57] "GET /timeLeft HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:06:57] "GET /timeLeft HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:06:57] "GET /timeLeft HTTP/1.1" 200 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:08:29] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:08:29] "POST /startLevel/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:08:37] "GET /timeLeft HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:08:38] "GET /timeLeft HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:08:38] "GET /timeLeft HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:08:39] "GET /timeLeft HTTP/1.1" 200 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:09:58] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:09:58] "POST /startLevel/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:10:02] "GET /timeLeft HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:10:03] "GET /timeLeft HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:10:03] "GET /timeLeft HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:10:03] "GET /timeLeft HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:10:04] "GET /timeLeft HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:10:04] "GET /timeLeft HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:10:04] "GET /timeLeft HTTP/1.1" 200 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:16:18] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:16:23] "[35m[1mPOST /startLevel/1 HTTP/1.1[0m" 500 -
 WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
 WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:20:23] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:20:30] "[35m[1mPOST /startLevel/1 HTTP/1.1[0m" 500 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:22:18] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:22:21] "POST /startLevel/1 HTTP/1.1" 200 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:25:26] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:25:36] "[35m[1mPOST /startLevel/1 HTTP/1.1[0m" 500 -
-WARNING:werkzeug: * Running on all addresses.
-   WARNING: This is a development server. Do not use it in a production deployment.
-INFO:werkzeug: * Running on http://192.168.159.205:8081/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:27:34] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [30/Sep/2021 11:27:46] "[35m[1mPOST /startLevel/1 HTTP/1.1[0m" 500 -

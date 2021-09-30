@@ -8,8 +8,10 @@ from models.user import User
 class DataBase:
     def __init__(self):
         self.usersDictionary: dict[User] = {}
-        self.savedLevels = [Level(levelNumber=1, levelMaxPoints=100), Level(levelNumber=2, levelMaxPoints=60),
-                            Level(levelNumber=3, levelMaxPoints=60), Level(levelNumber=4, levelMaxPoints=60)]
+        self.savedLevels = [Level(levelNumber=1, levelMaxPoints=100, levelTime=1800),
+                            Level(levelNumber=2, levelMaxPoints=100, levelTime=1800),
+                            Level(levelNumber=3, levelMaxPoints=100, levelTime=1800),
+                            Level(levelNumber=4, levelMaxPoints=100, levelTime=1800)]
 
     def hasUser(self, username):
         if username in self.usersDictionary:

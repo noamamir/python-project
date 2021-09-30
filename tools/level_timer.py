@@ -1,30 +1,24 @@
 import time
 from datetime import datetime
-import tkinter as tk
+import tkinter  as tk
 from tools import socketio_server as sio
 
-
-def timeout():
-    sio.emitEvent(sio.Events.END_LEVEL)
-
-root = tk.Tk()
-
-class LevelTimer():
+class LevelTimer:
     def __init__(self, levelTime):
         self.__pauseSignal = False
         self.levelTime = levelTime
         self.timeLeft = levelTime
-
-
-
         now = datetime.now()
         self.initTime = now.strftime("%H:%M:%S")
+
+    def timerPaused(self):
+        return self.__pauseSignal
 
     def stopTimer(self):
         self.timeLeft = 0
 
     def pauseTimer(self):
-       pass
+        self.__pauseSignal = True
 
     def getTimeLeft(self):
         return self.timeLeft
@@ -39,10 +33,28 @@ class LevelTimer():
         return current_time
 
     def countdown(self, remaining=None):
-        if remaining is not None:
-            self.timeLeft = remaining
-        if self.timeLeft <= 0:
-            timeout()
-        else:
-            self.timeLeft = self.timeLeft - 1
-            root.after(1000, self.countdown)
+        while self.timeLeft:
+            if self.__pauseSignal is not False:
+                break
+            elif self.timeLeft > 0:
+                mins, secs = divmod(self.timeLeft, 60)
+                timer = '{:02d}:{:02d}'.format(mins, secs)
+                time.sleep(1)
+                self.timeLeft -= 1
+            else:
+                timeout()
+
+
+timer: LevelTimer = LevelTimer(1800)
+
+
+def timeout():
+    sio.emitEvent(sio.Events.END_LEVEL)
+
+
+def initTimer():
+    timer.__init__(1800)
+
+
+def getTimer():
+    return timer

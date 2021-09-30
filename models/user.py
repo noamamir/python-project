@@ -7,6 +7,7 @@ class User:
         self.username = username
         self.submittedLevels: dict[SubmittedLevel] = {}
 
+
     def hasSubmittedLevel(self, levelIndex) -> bool:
         if levelIndex in self.submittedLevels:
             return True

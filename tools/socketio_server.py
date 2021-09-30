@@ -13,9 +13,9 @@ def emitEvent(eventName, data=None):
     serverio.emit(data=data, event=eventName)
 
 
-def initSocketioServer(port):
-    logger.infoLog(f'starting socketIo servoer on port {port}')
-    eventlet.wsgi.server(eventlet.listen(('', port)), app)
+def initSocketioServer():
+    logger.infoLog(f'starting socketIo servoer on port 15006')
+    eventlet.wsgi.server(eventlet.listen(('', 15006)), app)
 
 
 @serverio.event()
