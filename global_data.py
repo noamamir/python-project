@@ -22,3 +22,6 @@ class DataBase:
 
     def getUser(self, username) -> User:
         return self.usersDictionary[username]
+
+    def hasScoreboard(self, levelNum):
+        return levelNum in self.scoreboards

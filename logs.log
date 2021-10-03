@@ -476,3 +476,536 @@ INFO:root:starting socketIo servoer on port 15006
 WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+INFO:root:starting socketIo servoer on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 08:48:28] "OPTIONS /submissionTime/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 08:48:28] "[33mGET /scoreboard/0 HTTP/1.1[0m" 404 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 08:48:28] "GET /submissionTime/0 HTTP/1.1" 200 -
+INFO:root:starting socketIo servoer on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.101.236:8081/ (Press CTRL+C to quit)
+WARNING:root:Couldnt get scoreboard for level :0, scoreboard doesnt exist
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 09:04:18] "GET /scoreboard/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 09:04:18] "OPTIONS /submissionTime/0 HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 09:04:18] "GET /submissionTime/0 HTTP/1.1" 200 -
+WARNING:root:Couldnt get scoreboard for level :0, scoreboard doesnt exist
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 09:04:30] "GET /scoreboard/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 09:04:30] "OPTIONS /submissionTime/0 HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 09:04:30] "GET /submissionTime/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 09:05:46] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 09:05:46] "GET /submissionTime/1 HTTP/1.1" 200 -
+WARNING:root:Couldnt get scoreboard for level :0, scoreboard doesnt exist
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 09:14:23] "GET /scoreboard/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 09:14:23] "OPTIONS /submissionTime/0 HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 09:14:24] "GET /submissionTime/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 09:24:41] "OPTIONS /login HTTP/1.1" 200 -
+DEBUG:root:New user just logged in, user: nom
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 09:24:41] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 09:24:41] "OPTIONS /submissionTime/0 HTTP/1.1" 200 -
+WARNING:root:Couldnt get scoreboard for level :0, scoreboard doesnt exist
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 09:24:41] "GET /scoreboard/0 HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 09:24:41] "GET /submissionTime/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 09:24:56] "OPTIONS /submit/1 HTTP/1.1" 200 -
+INFO:root:file 'level.py' saved at 'submission/level_1/user_0/file.py'
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 09:24:56] "POST /submit/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 09:24:56] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 09:24:57] "GET /submissionTime/1 HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+INFO:root:starting socketIo servoer on port 15006
+ERROR:engineio.server:http://localhost:4200 is not an accepted origin. (further occurrences of this error will be logged with level INFO)
+INFO:root:starting socketIo servoer on port 15006
+INFO:root:starting socketIo servoer on port 15006
+INFO:root:starting socketIo servoer on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+INFO:root:starting socketIo servoer on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:04:35] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:04:35] "GET /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:04:46] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:04:46] "[35m[1mPOST /startLevel/1 HTTP/1.1[0m" 500 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:04:48] "[35m[1mPOST /startLevel/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:05:00] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:05:02] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:05:05] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:05:05] "[35m[1mPOST /startLevel/1 HTTP/1.1[0m" 500 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:05:06] "[35m[1mPOST /startLevel/1 HTTP/1.1[0m" 500 -
+INFO:root:starting socketIo servoer on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:05:22] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:05:23] "[35m[1mPOST /startLevel/1 HTTP/1.1[0m" 500 -
+INFO:root:starting socketIo servoer on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:08:04] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:08:11] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:08:11] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:08:18] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:08:18] "GET /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:08:21] "OPTIONS /stopCurrentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:08:21] "OPTIONS /stopCurrentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:08:22] "[35m[1mPOST /stopCurrentLevel HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:08:22] "[35m[1mPOST /stopCurrentLevel HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:08:22] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:08:24] "[35m[1mPOST /stopCurrentLevel HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:08:24] "[35m[1mPOST /stopCurrentLevel HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:08:24] "[35m[1mPOST /stopCurrentLevel HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:08:24] "[35m[1mPOST /stopCurrentLevel HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:08:26] "[35m[1mPOST /stopCurrentLevel HTTP/1.1[0m" 500 -
+INFO:root:starting socketIo servoer on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:09:04] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:09:18] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:09:19] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:09:19] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:09:20] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:09:21] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:15:11] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:15:11] "GET /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:15:36] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:15:37] "GET /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:16:02] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:16:02] "GET /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:16:34] "OPTIONS /login HTTP/1.1" 200 -
+DEBUG:root:New user just logged in, user: ds
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:16:34] "POST /login HTTP/1.1" 200 -
+WARNING:root:Couldnt get scoreboard for level :0, scoreboard doesnt exist
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:16:35] "GET /scoreboard/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:16:35] "OPTIONS /submissionTime/0 HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:16:35] "GET /submissionTime/0 HTTP/1.1" 200 -
+INFO:root:starting socketIo servoer on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:18:27] "OPTIONS /login HTTP/1.1" 200 -
+DEBUG:root:New user just logged in, user: w
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:18:27] "POST /login HTTP/1.1" 200 -
+WARNING:root:Couldnt get scoreboard for level :0, scoreboard doesnt exist
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:18:27] "GET /scoreboard/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:18:27] "OPTIONS /submissionTime/0 HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:18:28] "GET /submissionTime/0 HTTP/1.1" 200 -
+INFO:root:starting socketIo servoer on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:19:00] "OPTIONS /login HTTP/1.1" 200 -
+DEBUG:root:New user just logged in, user: sasa
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:19:00] "POST /login HTTP/1.1" 200 -
+WARNING:root:Couldnt get scoreboard for level :0, scoreboard doesnt exist
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:19:00] "GET /scoreboard/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:19:00] "OPTIONS /submissionTime/0 HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:19:01] "GET /submissionTime/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:19:17] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:19:17] "[35m[1mPOST /startLevel/1 HTTP/1.1[0m" 500 -
+INFO:root:starting socketIo servoer on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:21:18] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:root:starting socketIo servoer on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:22:45] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:root:starting socketIo servoer on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:24:00] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:root:starting socketIo servoer on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:25:16] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 1
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+INFO:root:starting socketIo servoer on port 15006
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:28:29] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:root:Starting a new level, timer started for level 1
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:28:38] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:28:38] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:28:48] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:28:51] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:28:52] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:28:52] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:28:53] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:29:05] "OPTIONS /startLevel/2 HTTP/1.1" 200 -
+INFO:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:29:05] "POST /startLevel/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:29:08] "OPTIONS /stopCurrentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:29:08] "OPTIONS /stopCurrentLevel HTTP/1.1" 200 -
+INFO:root:level paused, timer stopped
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:29:08] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:29:08] "POST /stopCurrentLevel HTTP/1.1" 200 -
+INFO:root:level paused, timer stopped
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:29:08] "POST /stopCurrentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:29:09] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:29:15] "OPTIONS /stopCurrentLevel HTTP/1.1" 200 -
+INFO:root:level paused, timer stopped
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:29:16] "POST /stopCurrentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:29:19] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Continuing level 1, timer continues at: 1722
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+INFO:root:starting socketIo servoer on port 15006
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:30:23] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:root:starting socketIo servoer on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+INFO:root:starting socketIo servoer on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 11:30:56] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 1
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+INFO:root:starting socketIo servoer on port 15006
+INFO:root:starting socketIo servoer on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+INFO:root:starting socketIo server on port 15006
+INFO:root:starting socketIo server on port 15006
+INFO:root:starting socketIo server on port 15006
+INFO:root:starting socketIo server on port 15006
+INFO:root:starting socketIo server on port 15006
+INFO:root:starting socketIo server on port 15006
+INFO:root:starting socketIo server on port 15006
+INFO:root:starting socketIo server on port 15006
+INFO:root:starting socketIo server on port 15006
+INFO:root:starting socketIo server on port 15006
+INFO:root:starting socketIo server on port 15006
+INFO:root:starting socketIo server on port 15006
+INFO:root:starting socketIo server on port 15006
+INFO:root:starting socketIo server on port 15006
+INFO:root:starting socketIo server on port 15006
+ERROR:engineio.server:http://localhost:4200 is not an accepted origin. (further occurrences of this error will be logged with level INFO)
+INFO:root:starting socketIo server on port 15006
+ERROR:engineio.server:http://localhost:4200 is not an accepted origin. (further occurrences of this error will be logged with level INFO)
+INFO:root:starting socketIo server on port 15006
+ERROR:engineio.server:http://localhost:4200 is not an accepted origin. (further occurrences of this error will be logged with level INFO)
+INFO:root:starting socketIo server on port 15006
+INFO:root:starting socketIo server on port 15006
+INFO:root:starting socketIo server on port 15006
+INFO:root:starting socketIo server on port 15006
+INFO:root:starting socketIo server on port 15006
+INFO:root:starting socketIo server on port 15006
+INFO:root:Emitted start level event!!!!!!!!!!!!!!!!
+INFO:root:Emitted start level event!!!!!!!!!!!!!!!!
+INFO:root:Emitted start level event!!!!!!!!!!!!!!!!
+INFO:root:starting socketIo server on port 15006
+INFO:root:Emitted start level event!!!!!!!!!!!!!!!!
+INFO:root:starting socketIo server on port 15006
+INFO:root:Emitted start level event!!!!!!!!!!!!!!!!
+INFO:root:starting socketIo server on port 15006
+INFO:root:Emitted start level event!!!!!!!!!!!!!!!!
+INFO:root:starting socketIo server on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+INFO:root:starting socketIo server on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:28:19] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:root:starting socketIo server on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:29:31] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:29:31] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:root:Starting a new level, timer started for level 1
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:29:42] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:29:47] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:29:48] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:29:48] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:29:49] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:29:49] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:29:50] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:29:50] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:29:51] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:30:15] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:30:15] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:root:starting socketIo server on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:30:47] "OPTIONS /startLevel/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:30:47] "[35m[1mPOST /startLevel/2 HTTP/1.1[0m" 500 -
+INFO:root:starting socketIo server on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:31:15] "OPTIONS /startLevel/2 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 2
+INFO:root:Emitted start level event!!!!!!!!!!!!!!!!
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:32:22] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:32:22] "GET /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:32:33] "OPTIONS /startLevel/2 HTTP/1.1" 200 -
+INFO:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:32:33] "POST /startLevel/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:32:37] "OPTIONS /startLevel/3 HTTP/1.1" 200 -
+INFO:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:32:37] "POST /startLevel/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:32:41] "OPTIONS /stopCurrentLevel HTTP/1.1" 200 -
+INFO:root:level paused, timer stopped
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:32:42] "POST /stopCurrentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:32:42] "POST /startLevel/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:32:43] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:32:44] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:32:45] "OPTIONS /endCurrentLevel HTTP/1.1" 200 -
+INFO:root:level ended, timer stopped
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:32:46] "POST /endCurrentLevel HTTP/1.1" 200 -
+INFO:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:32:46] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:32:48] "OPTIONS /stopCurrentLevel HTTP/1.1" 200 -
+INFO:root:level paused, timer stopped
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:32:48] "POST /stopCurrentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:32:50] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:32:50] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:33:19] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:33:20] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:33:22] "OPTIONS /startLevel/2 HTTP/1.1" 200 -
+INFO:root:Continuing level 2, timer continues at: 0
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:33:22] "POST /startLevel/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:33:23] "OPTIONS /startLevel/3 HTTP/1.1" 200 -
+INFO:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:33:23] "POST /startLevel/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:33:33] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:33:34] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:33:38] "OPTIONS /stopCurrentLevel HTTP/1.1" 200 -
+INFO:root:level paused, timer stopped
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:33:38] "POST /stopCurrentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:33:40] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:33:41] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:33:41] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:33:41] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:33:42] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:33:42] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:33:44] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:33:44] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:33:46] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:33:46] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:33:47] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:33:47] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:33:48] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:33:48] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:33:48] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:33:48] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:33:59] "OPTIONS /endCurrentLevel HTTP/1.1" 200 -
+INFO:root:level ended, timer stopped
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:33:59] "POST /endCurrentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:34:03] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 13:34:04] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:root:starting socketIo server on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+INFO:root:starting socketIo server on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+INFO:root:starting socketIo server on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+INFO:root:starting socketIo server on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:root:starting socketIo server on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:root:starting socketIo server on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:root:starting socketIo server on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+INFO:root:starting socketIo server on port 15006
+ERROR:engineio.client:requests package is not installed -- cannot send HTTP requests!
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:root:starting socketIo server on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:root:starting socketIo server on port 15006
+ERROR:engineio.client:aiohttp not installed -- cannot make HTTP requests!
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:root:starting socketIo server on port 15006
+ERROR:engineio.client:aiohttp not installed -- cannot make HTTP requests!
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:root:starting socketIo server on port 15006
+ERROR:engineio.client:aiohttp not installed -- cannot make HTTP requests!
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:root:starting socketIo server on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:root:starting socketIo server on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:root:starting socketIo server on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:root:starting socketIo server on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:root:starting socketIo server on port 15006
+DEBUG:asyncio:Using proactor: IocpProactor
+ERROR:engineio.client:aiohttp not installed -- cannot make HTTP requests!
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:root:starting socketIo server on port 15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:root:starting socketIo server on port 15006
+ERROR:engineio.client:aiohttp not installed -- cannot make HTTP requests!
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:root:starting socketIo server on port 15006
+DEBUG:asyncio:Using proactor: IocpProactor
+ERROR:engineio.client:aiohttp not installed -- cannot make HTTP requests!
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:root:starting socketIo server on port 15006
+DEBUG:asyncio:Using proactor: IocpProactor
+ERROR:engineio.client:requests package is not installed -- cannot send HTTP requests!
+ERROR:engineio.client:aiohttp not installed -- cannot make HTTP requests!
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 14:27:51] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+INFO:root:Emitted start level event!!!!!!!!!!!!!!!!
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 14:27:51] "GET /submissionTime/1 HTTP/1.1" 200 -
+WARNING:root:Couldnt get scoreboard for level :0, scoreboard doesnt exist
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 14:28:34] "GET /scoreboard/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 14:28:34] "OPTIONS /submissionTime/0 HTTP/1.1" 200 -
+INFO:root:Emitted start level event!!!!!!!!!!!!!!!!
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 14:28:35] "GET /submissionTime/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 14:28:41] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 14:28:41] "GET /submissionTime/1 HTTP/1.1" 200 -
+INFO:root:Emitted start level event!!!!!!!!!!!!!!!!
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:asyncio:Using proactor: IocpProactor
+ERROR:engineio.client:aiohttp not installed -- cannot make HTTP requests!
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+ERROR:engineio.client:requests package is not installed -- cannot send HTTP requests!
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633261086.0082932 HTTP/1.1" 200 97
+ERROR:engineio.client:websocket-client package not installed, only polling transport is available
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (2): localhost:15006
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&sid=3osV9i4cd5LWDdOHAAAw&t=1633261088.0564935 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633261163.8021085 HTTP/1.1" 200 97
+ERROR:engineio.client:websocket-client package not installed, only polling transport is available
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (2): localhost:15006
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&sid=wZSyo_iaeWy_G1glAABZ&t=1633261165.8409321 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633261184.9792569 HTTP/1.1" 200 97
+ERROR:engineio.client:websocket-client package not installed, only polling transport is available
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (2): localhost:15006
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&sid=4-xTx9Z4GCDPgTKcAABk&t=1633261187.058176 HTTP/1.1" 400 None
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:asyncio:Using proactor: IocpProactor
+ERROR:engineio.client:aiohttp not installed -- cannot make HTTP requests!
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)

@@ -1,7 +1,7 @@
 import errno
 import os
 import threading
-
+import json
 from flask import Flask, request
 from flask_cors import CORS
 from flask_restful import Resource, Api, reqparse
@@ -15,7 +15,7 @@ from models.scoreboard import Scoreboard
 from models.submittedLevel import SubmittedLevel
 from models.user import User
 from tools import level_timer as timer
-from tools import socketio_server as sio
+from tools import socketio_client as sio
 
 adminPassword = 'IAMTHEMANAGER'
 
@@ -80,7 +80,7 @@ class StopCurrentLevel(Resource):
                 logger.warningLog('Cannot stop the level, level hasnt been started')
             else:
                 timer.getTimer().pauseTimer()
-                sio.emitEvent(sio.Events.STOP_LEVEL)
+                sio.emitEvent(sio.Events.STOP_LEVEL.value)
                 logger.infoLog('level paused, timer stopped')
         else:
             logger.warningLog('Password sent doesnt match the admin password')
@@ -93,7 +93,7 @@ class EndCurrentLevel(Resource):
             if timer.getTimer().timeLeft is timer.getTimer().levelTime:
                 logger.infoLog('Cannot end the level, level hasnt been started')
             else:
-                sio.emitEvent(sio.Events.END_LEVEL)
+                sio.emitEvent(sio.Events.END_LEVEL.value)
                 logger.infoLog('level ended, timer stopped')
                 timer.getTimer().stopTimer()
         else:
@@ -111,7 +111,7 @@ class Compute(Resource):
 
 
 class StartLevel(Resource):
-    def post(self, level):
+     def post(self, level):
         password = requestHeaderAuthorization.parse_args().Authorization
         if password == adminPassword:
             if levelHandler.level.levelNumber == level and timer.getTimer().timerPaused():
@@ -123,9 +123,9 @@ class StartLevel(Resource):
                 else:
                     levelToStart = database.savedLevels[level - 1]
                     levelHandler.__init__(levelToStart)
-                    timer.initTimer()
+                    timer.initTimer(levelToStart.levelTime)
                     logger.infoLog(f'Starting a new level, timer started for level {level}')
-                    sio.emitEvent(sio.Events.START_LEVEL, levelHandler.level)
+                    sio.emitEvent(sio.Events.START_LEVEL.value, levelHandler.level.toJSON())
                     timer.getTimer().countdown()
         else:
             logger.warningLog('Password sent doesnt match the admin password')
@@ -144,7 +144,7 @@ class Login(Resource):
             logger.debugLog(f'New user just logged in, user: {args.Authorization}')
             userId = len(database.usersDictionary)
             database.usersDictionary[username] = User(id=userId, username=username)
-            sio.emitEvent(sio.Events.USER_LOGIN, username)
+            sio.emitEvent(sio.Events.USER_LOGIN.value, username)
         else:
             logger.errorLog('Login request header has no username')
 
@@ -171,7 +171,17 @@ class GetSubmissionTime(Resource):
 
         logger.warningLog('Couldnt get submittion time, user or level submittion invalid')
 
-        return False
+        return None
+
+
+class GetScoreboard(Resource):
+    def get(self, level):
+        if database.hasScoreboard(level):
+            logger.infoLog(f'Returning scoreboard for level: {level}')
+            return database.scoreboards.get(level)
+        else:
+            logger.warningLog(f'Couldnt get scoreboard for level :{level}, scoreboard doesnt exist')
+            return None
 
 
 def computeAtTimeout():
@@ -191,6 +201,7 @@ def compute():
     logger.infoLog(f"Successfully generated scoreboard for level {levelNumber}")
 
 
+api.add_resource(GetScoreboard, '/scoreboard/<int:level>')
 api.add_resource(GetSubmissionTime, '/submissionTime/<int:level>')
 api.add_resource(SubmitLevel, '/submit/<int:levelNum>')
 api.add_resource(SetLevelTime, '/setLevelTime/<int:level>')
