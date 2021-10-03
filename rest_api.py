@@ -11,6 +11,7 @@ import computing_handler
 import logger
 from global_data import DataBase
 from level_handler import LevelHandler
+from models.level import Level
 from models.scoreboard import Scoreboard
 from models.submittedLevel import SubmittedLevel
 from models.user import User
@@ -93,9 +94,9 @@ class EndCurrentLevel(Resource):
             if timer.getTimer().timeLeft is timer.getTimer().levelTime:
                 logger.infoLog('Cannot end the level, level hasnt been started')
             else:
-                sio.emitEvent(sio.Events.END_LEVEL.value)
-                logger.infoLog('level ended, timer stopped')
                 timer.getTimer().stopTimer()
+                logger.infoLog('level ended, timer stopped')
+                sio.emitEvent(sio.Events.END_LEVEL.value)
         else:
             logger.warningLog('Password sent doesnt match the admin password')
 
@@ -111,24 +112,31 @@ class Compute(Resource):
 
 
 class StartLevel(Resource):
-     def post(self, level):
+    def post(self, level):
         password = requestHeaderAuthorization.parse_args().Authorization
         if password == adminPassword:
             if levelHandler.level.levelNumber == level and timer.getTimer().timerPaused():
                 logger.infoLog(f'Continuing level {level}, timer continues at: {timer.getTimer().timeLeft}')
                 timer.getTimer().continueTimer()
+                currentLevelState = Level(levelNumber=levelHandler.level.levelNumber,
+                                          levelTime=timer.getTimer().timeLeft)
+                sio.emitEvent(sio.Events.START_LEVEL.value, currentLevelState.toJSON())
             else:
                 if timer.getTimer().timeLeft is not timer.getTimer().levelTime:
                     logger.infoLog('Cannot Start a new level, theres already a level in progress')
                 else:
-                    levelToStart = database.savedLevels[level - 1]
-                    levelHandler.__init__(levelToStart)
-                    timer.initTimer(levelToStart.levelTime)
-                    logger.infoLog(f'Starting a new level, timer started for level {level}')
-                    sio.emitEvent(sio.Events.START_LEVEL.value, levelHandler.level.toJSON())
-                    timer.getTimer().countdown()
+                    initNewLevel(level)
         else:
             logger.warningLog('Password sent doesnt match the admin password')
+
+
+def initNewLevel(levelNum):
+    levelToStart = database.savedLevels[levelNum - 1]
+    levelHandler.__init__(levelToStart)
+    timer.initTimer(levelToStart.levelTime)
+    logger.infoLog(f'Starting a new level, timer started for level {levelNum}')
+    sio.emitEvent(sio.Events.START_LEVEL.value, levelHandler.level.toJSON())
+    timer.getTimer().countdown()
 
 
 class GetCurrentLevel(Resource):
@@ -151,7 +159,6 @@ class Login(Resource):
 
 class SetLevelTime(Resource):
     def post(self, level):
-        print(request)
         password = requestHeaderAuthorization.parse_args().Authorization
         if password == adminPassword:
             time = request.data
@@ -199,6 +206,7 @@ def compute():
                                              scores=levelUserResults)
     database.scoreboards[levelNumber] = levelScoreboard
     logger.infoLog(f"Successfully generated scoreboard for level {levelNumber}")
+    sio.emitEvent(sio.Events.UPDATE_SCOREBOARD, levelScoreboard)
 
 
 api.add_resource(GetScoreboard, '/scoreboard/<int:level>')
