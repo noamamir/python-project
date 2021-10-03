@@ -1009,3 +1009,635 @@ ERROR:engineio.client:aiohttp not installed -- cannot make HTTP requests!
 WARNING:werkzeug: * Running on all addresses.
    WARNING: This is a development server. Do not use it in a production deployment.
 INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:asyncio:Using proactor: IocpProactor
+ERROR:engineio.client:aiohttp not installed -- cannot make HTTP requests!
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:asyncio:Using proactor: IocpProactor
+ERROR:engineio.client:aiohttp not installed -- cannot make HTTP requests!
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://127.0.0.1:8081/ (Press CTRL+C to quit)
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:asyncio:Using proactor: IocpProactor
+ERROR:engineio.client:aiohttp not installed -- cannot make HTTP requests!
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+DEBUG:asyncio:Using proactor: IocpProactor
+DEBUG:asyncio:Using proactor: IocpProactor
+ERROR:engineio.client:aiohttp not installed -- cannot make HTTP requests!
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8000
+WARNING:socketIO-client:localhost:8000/socket.io [engine.io waiting for connection] HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /socket.io/?EIO=3&transport=polling&t=1633263405486-0 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017B5AA2F4C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (2): localhost:8000
+WARNING:socketIO-client:localhost:8000/socket.io [engine.io waiting for connection] HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /socket.io/?EIO=3&transport=polling&t=1633263410610-0 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017B5AA2FCA0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (3): localhost:8000
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263417677-0 HTTP/1.1" 400 None
+WARNING:socketIO-client:localhost:15006/socket.io [engine.io waiting for connection] unexpected status code (400 {"code":5,"message":"Unsupported protocol version"})
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263420730-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263421757-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263422768-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263423769-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263424779-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263425792-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263426802-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263427811-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263428812-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263429822-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263430832-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263431832-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263432844-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263433853-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263434861-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263435862-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263436872-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263437882-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263438894-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263439902-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263440914-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263441917-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263442926-0 HTTP/1.1" 400 None
+WARNING:socketIO-client:localhost:15006/socket.io [engine.io waiting for connection] unexpected status code (400 {"code":5,"message":"Unsupported protocol version"})
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263446046-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263447053-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263452284-0 HTTP/1.1" 400 None
+WARNING:socketIO-client:localhost:15006/socket.io [engine.io waiting for connection] unexpected status code (400 {"code":5,"message":"Unsupported protocol version"})
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263455342-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263456358-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263457369-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263458380-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263459392-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263460405-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263461415-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263462426-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263463434-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263464451-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263465457-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263466463-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263467466-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263468469-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263469470-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263470470-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263471480-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263472482-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263473494-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263474501-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263475511-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263476530-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263477539-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263478545-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263479556-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263480559-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263481572-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263482580-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263483587-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263484602-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263485609-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263486618-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263487637-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263488656-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263489677-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263490686-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263491704-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263492722-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263493723-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263494730-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263495744-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263496760-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263497781-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263498782-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263499814-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263500828-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263501845-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263502848-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263503848-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263504858-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263505867-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263506875-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263507880-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263508892-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263509903-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263510905-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263511908-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263512909-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263513921-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263514924-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263515926-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263516930-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263517935-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263518937-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263519937-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263520959-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263521962-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263522963-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263523967-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263524978-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263525983-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263527000-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263528004-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263529009-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263530013-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263531015-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263532024-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263533029-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263534044-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263535048-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263536055-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263537058-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263538060-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263539066-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263540071-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263541082-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263542083-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263543099-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263544104-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263545108-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263546117-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263547125-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263548125-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263549130-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263550155-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263551184-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263552208-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263553213-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263554221-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263555237-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263556245-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263557256-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263558268-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263559279-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263560306-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263561321-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263562333-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263563335-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263564346-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263565358-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263566368-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263567379-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263568388-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263569390-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263570399-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263571409-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263572420-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263573421-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263574432-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263575445-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263576453-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263577455-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263578466-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263579478-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263580503-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263581504-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263582515-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263583526-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263584527-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263585529-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263586539-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263587551-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263588566-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263589577-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263590590-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263591600-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263592602-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263593612-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263594625-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263595634-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263596636-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263597647-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263598658-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263599667-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263600680-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263601691-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263602702-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263603711-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263604714-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263605726-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263606738-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263607762-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263608764-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263609770-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263610776-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263611792-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263612804-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263613815-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263614827-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263615842-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263616852-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263617864-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263618874-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263619889-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263620901-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263621911-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263622915-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263623916-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263624927-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263625938-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263626947-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263627948-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263628959-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263629971-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263630977-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263631979-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263632990-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263634002-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263635027-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263636028-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263637041-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263638052-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263639063-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263640074-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263641079-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263642090-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263643091-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263644097-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263645106-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263646116-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263647119-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263648129-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263649139-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263650148-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263651150-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263652161-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263653171-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263654181-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263655182-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263656193-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263657198-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263658208-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263659211-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263660226-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263661238-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263662253-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263663264-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263664276-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263665288-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263666292-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263667303-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263668315-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263669327-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263670332-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263671344-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263672356-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263673364-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263674368-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263675378-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263676389-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263677397-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263678399-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263679410-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263680414-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263681426-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263682427-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263683439-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263684450-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263685458-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263686472-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263687484-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263688495-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263689510-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263690516-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263691526-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263692538-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263693553-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263694563-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263695571-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263696583-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263697598-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263698610-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263699621-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263700630-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263701632-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263702643-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263703655-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263704664-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263705665-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263706676-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263707686-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263708694-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263709696-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263710704-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263711715-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263712724-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263713725-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263714739-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263715751-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263716766-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263717773-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263718785-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263719794-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263720805-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263721815-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263722827-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263723838-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263724854-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263725859-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263726870-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263727879-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263728881-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263729892-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263730904-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263731912-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263732913-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263733924-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263734935-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263735945-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263736947-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263737958-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263738969-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263739993-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263741006-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263742017-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263743027-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263744043-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263745054-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263746065-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263747076-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263748091-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263749101-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263750114-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263751120-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263752136-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263753146-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263754158-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263755168-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263756181-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263757193-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263758204-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263759214-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263760216-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263761223-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263762233-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263763247-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263764250-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263765261-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263766271-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263767283-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263768296-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263769307-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263770319-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263771339-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263772340-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263773351-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263774361-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263775377-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263776387-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263777399-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263778409-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263779425-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263780435-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263781442-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263782455-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263783470-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263784476-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263785488-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263786489-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263787492-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263788499-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263789510-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263790535-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263791536-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263792547-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263793558-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263794563-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263795570-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263796580-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263797591-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263798606-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263799617-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263800622-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263801636-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263802651-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263803661-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263804672-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263805683-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263806698-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263807710-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263808720-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263809730-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263810742-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263811756-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263812767-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263813776-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263814777-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263815782-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263816790-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263817802-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263818803-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263819814-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263820825-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263821834-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263822835-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263823847-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263824855-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263825870-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263826880-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263827891-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263828903-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263829918-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263830926-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263831936-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263832946-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263833962-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263834974-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263835985-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263836994-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263837995-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263839006-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263840017-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263841029-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263842031-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263843042-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263844053-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263845061-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263846074-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263847085-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263848096-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263849105-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263850106-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263851113-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263852119-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263853119-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263854131-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263855142-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263856154-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263857154-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263858165-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263859176-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263860187-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263861199-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263862211-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263863222-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263864230-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263865232-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263866242-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263867252-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263868260-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263869261-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263870270-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263871278-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263872288-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263873289-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263874300-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263875311-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263876332-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263877333-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263878345-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263879356-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263880356-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263881365-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263882376-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263883386-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263884386-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263885397-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263886408-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263887419-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263888431-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263889439-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263890451-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263891456-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263892458-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263893469-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263894480-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263895486-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263896499-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263897511-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263898525-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263899535-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263900536-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263901547-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263902558-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263903558-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263904585-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263905595-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263906602-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263907602-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263908613-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263909625-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263910635-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263911647-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263912657-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263913668-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263914678-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263915679-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263916690-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263917701-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263918711-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263919712-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263920723-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263921731-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263922741-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263923743-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263924754-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263925758-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263926767-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263927768-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263928779-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263929790-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263930791-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263931803-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263932813-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263933824-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263934841-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263935852-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263936860-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263937869-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263938871-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263939881-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263940891-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263941915-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263942936-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263943963-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263944974-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263945987-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?EIO=3&transport=polling&t=1633263946989-0 HTTP/1.1" 400 None
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633265410.558046 HTTP/1.1" 200 97
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633265505.5400376 HTTP/1.1" 200 97
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633265513.9083078 HTTP/1.1" 200 97
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633265626.806554 HTTP/1.1" 200 97
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633265650.3393395 HTTP/1.1" 200 97
+DEBUG:urllib3.connectionpool:Resetting dropped connection: localhost
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (2): localhost:15006
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633265716.5466309 HTTP/1.1" 200 97
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 16:00:49] "OPTIONS /submissionTime/0 HTTP/1.1" 200 -
+WARNING:root:Couldnt get scoreboard for level :0, scoreboard doesnt exist
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 16:00:49] "GET /scoreboard/0 HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 16:00:49] "GET /submissionTime/0 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Resetting dropped connection: localhost
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (3): localhost:15006
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (4): localhost:15006
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (5): localhost:15006
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (6): localhost:15006
+WARNING:root:Couldnt get scoreboard for level :0, scoreboard doesnt exist
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 16:02:40] "GET /scoreboard/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 16:02:40] "OPTIONS /submissionTime/0 HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 16:02:41] "GET /submissionTime/0 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (7): localhost:15006
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (8): localhost:15006
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (9): localhost:15006
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633266180.9561102 HTTP/1.1" 200 97
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 16:03:17] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 16:03:17] "[35m[1mPOST /startLevel/1 HTTP/1.1[0m" 500 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 16:03:17] "[35m[1mPOST /startLevel/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 16:03:30] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 16:03:31] "[35m[1mPOST /startLevel/1 HTTP/1.1[0m" 500 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633266334.4836109 HTTP/1.1" 200 97
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 16:05:45] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 16:06:02] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 16:06:02] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 16:06:10] "OPTIONS /startLevel/2 HTTP/1.1" 200 -
+INFO:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 16:06:10] "POST /startLevel/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 16:06:11] "OPTIONS /startLevel/3 HTTP/1.1" 200 -
+INFO:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 16:06:12] "POST /startLevel/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 16:06:13] "OPTIONS /stopCurrentLevel HTTP/1.1" 200 -
+INFO:root:level paused, timer stopped
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 16:06:14] "POST /stopCurrentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 16:06:14] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 16:06:24] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 16:06:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 16:06:29] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 16:06:29] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 16:06:29] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 16:06:33] "OPTIONS /stopCurrentLevel HTTP/1.1" 200 -
+INFO:root:level paused, timer stopped
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 16:06:33] "POST /stopCurrentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 16:06:39] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Continuing level 1, timer continues at: 1771
+INFO:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 16:06:42] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 16:07:45] "OPTIONS /submissionTime/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 16:09:05] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [03/Oct/2021 16:09:05] "POST /startLevel/1 HTTP/1.1" 200 -

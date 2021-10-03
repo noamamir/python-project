@@ -1,6 +1,11 @@
 var app = require('express')();
 var http = require('http').Server(app);
-var io = require('socket.io')(http);
+//var io = require('socket.io')(http);
+var io = require('socket.io')(http, {
+  cors: {
+    origin: '*',
+  }
+});
 
 app.get('/', function(req, res){
     
@@ -233,7 +238,7 @@ io.on('connection', function(socket){
 	});
 });
 
-http.listen(15006, "0.0.0.0", function(){
+http.listen(15006, "127.0.0.1", function(){
 
     console.log('listening on *:15006');
 });
