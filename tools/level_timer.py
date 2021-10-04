@@ -20,6 +20,7 @@ class LevelTimer:
         return self.__pauseSignal
 
     def stopTimer(self):
+        self.__pauseSignal = False
         self.timeLeft = 0
 
     def pauseTimer(self):

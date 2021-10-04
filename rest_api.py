@@ -2,6 +2,7 @@ import errno
 import os
 import threading
 import json
+import time
 from flask import Flask, request
 from flask_cors import CORS
 from flask_restful import Resource, Api, reqparse
@@ -94,8 +95,8 @@ class EndCurrentLevel(Resource):
             if timer.getTimer().timeLeft is timer.getTimer().levelTime:
                 logger.infoLog('Cannot end the level, level hasnt been started')
             else:
-                timer.getTimer().stopTimer()
                 logger.infoLog('level ended, timer stopped')
+                timer.getTimer().stopTimer()
                 sio.emitEvent(sio.Events.END_LEVEL.value)
         else:
             logger.warningLog('Password sent doesnt match the admin password')
@@ -109,6 +110,7 @@ class Compute(Resource):
         else:
             logger.warningLog('Password sent doesnt match the admin password')
         return
+
 
 class StartLevel(Resource):
     def post(self, level):
@@ -135,12 +137,13 @@ def initNewLevel(levelNum):
     timer.initTimer(levelToStart.levelTime)
     logger.infoLog(f'Starting a new level, timer started for level {levelNum}')
     sio.emitEvent(sio.Events.START_LEVEL.value, levelHandler.level.toJSON())
-    timer.getTimer().countdown()
+    threading.Thread(target= timer.getTimer().countdown).start()
 
 
 class GetCurrentLevel(Resource):
     def get(self):
         return {"level": levelHandler.level.levelNumber, "timeLeft": timer.getTimer().timeLeft}
+
 
 class GetIsLevelRunning(Resource):
     def get(self, level):
@@ -153,6 +156,7 @@ class GetIsLevelRunning(Resource):
         else:
             logger.warningLog('Password sent doesnt match the admin password')
             return None
+
 
 class Login(Resource):
     def post(self):
@@ -207,8 +211,9 @@ def computeAtTimeout():
     while True:
         if timer.getTimer().timeoutSignal:
             compute()
-            nextLevel()
+            initNewLevel(levelHandler.level.levelNumber + 1)
             timer.getTimer().timeoutSignal = False
+        time.sleep(1)
 
 
 def compute():
@@ -221,8 +226,6 @@ def compute():
     logger.infoLog(f"Successfully generated scoreboard for level {levelNumber}")
     sio.emitEvent(sio.Events.UPDATE_SCOREBOARD.value, levelScoreboard.toJSON())
 
-def nextLevel():
-    levelHandler
 
 api.add_resource(GetScoreboard, '/scoreboard/<int:level>')
 api.add_resource(GetSubmissionTime, '/submissionTime/<int:level>')
