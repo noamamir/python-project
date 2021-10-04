@@ -235,10 +235,15 @@ class GetResult(Resource):
         username = args.Authorization
         files: dict = {}
         levelIndex = levelNum - 1
-
-        for filename in os.listdir(f"Results/{levelIndex}/{database.usersDictionary[username].id}"):
-            with open(os.path.join(f"Results/{levelIndex}/{database.usersDictionary[username].id}", filename), 'r') as f:
-                files[filename] = f.read()
+        try:
+            for filename in os.listdir(f"Results/{levelIndex}/{database.usersDictionary[username].id}"):
+                with open(os.path.join(f"Results/{levelIndex}/{database.usersDictionary[username].id}", filename), 'r') as f:
+                    try:
+                        files[filename] = f.read()
+                    except Exception:
+                       logger.warningLog(f"Couldnt read files for user {username} for level {levelNum} ")
+        except Exception:
+            logger.warningLog(f"Couldnt find files for user {username} for level {levelNum} ")
 
         return files
 
