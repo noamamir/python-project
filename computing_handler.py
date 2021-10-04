@@ -7,13 +7,14 @@ def computeLevelScores(users: dict[int, User], levelNum) -> list[UserResult]:
     userResults: list[UserResult] = []
 
     for user in users.values():
+        userScore = 0
         if not user.hasSubmittedLevel(levelNum):
             logger.warningLog(f"User {user} hasnt submitted level: {levelNum}")
         else:
             submittedLevel = user.getSubmittedLevels(levelNum)
-            submittedLevel.score = calculateUserScore(user.username, submittedLevel.levelIndex)
-            userResults.append(UserResult(user.username, submittedLevel.score))
-
+            userScore = submittedLevel.score = calculateUserScore(user.username, submittedLevel.levelIndex)
+        userResults.append(UserResult(user.username, userScore))
+        
     return userResults
 
 def calculateUserScore(username, levelNum):

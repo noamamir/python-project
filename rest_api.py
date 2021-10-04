@@ -137,7 +137,7 @@ def initNewLevel(levelNum):
     timer.initTimer(levelToStart.levelTime)
     logger.infoLog(f'Starting a new level, timer started for level {levelNum}')
     sio.emitEvent(sio.Events.START_LEVEL.value, levelHandler.level.toJSON())
-    threading.Thread(target= timer.getTimer().countdown).start()
+    threading.Thread(target=timer.getTimer().countdown).start()
 
 
 class GetCurrentLevel(Resource):
