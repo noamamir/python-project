@@ -105,7 +105,7 @@ class Compute(Resource):
     def post(self):
         password = requestHeaderAuthorization.parse_args().password
         if password == adminPassword:
-            pass
+            compute()
         else:
             logger.warningLog('Password sent doesnt match the admin password')
         return
@@ -192,22 +192,25 @@ class GetScoreboard(Resource):
 
 
 def computeAtTimeout():
-    check.acquire()
-    check.wait()
-    compute()
+    while True:
+        if timer.getTimer().timeoutSignal:
+            compute()
+            nextLevel()
+            timer.getTimer().timeoutSignal = False
 
 
 def compute():
     levelNumber = levelHandler.level.levelNumber
-
     logger.infoLog(f"Computing user results for level {levelNumber}")
     levelUserResults = computing_handler.computeLevelScores(database.usersDictionary, levelNumber)
     levelScoreboard: Scoreboard = Scoreboard(levelMaxPoints=database.savedLevels[levelNumber - 1].levelMaxPoints,
                                              scores=levelUserResults)
     database.scoreboards[levelNumber] = levelScoreboard
     logger.infoLog(f"Successfully generated scoreboard for level {levelNumber}")
-    sio.emitEvent(sio.Events.UPDATE_SCOREBOARD, levelScoreboard)
+    sio.emitEvent(sio.Events.UPDATE_SCOREBOARD.value, levelScoreboard.toJSON())
 
+def nextLevel():
+    levelHandler
 
 api.add_resource(GetScoreboard, '/scoreboard/<int:level>')
 api.add_resource(GetSubmissionTime, '/submissionTime/<int:level>')
@@ -222,5 +225,6 @@ api.add_resource(EndCurrentLevel, '/endCurrentLevel')
 api.add_resource(Compute, '/compute')
 
 
-def initHttpServer():
+def initHttpServer(in_q):
+    threading.Thread(target=computeAtTimeout).start()
     app.run(host='0.0.0.0', port=8081, debug=True, use_reloader=False)
