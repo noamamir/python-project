@@ -2,7 +2,7 @@
 from queue import Queue
 from threading import Thread
 import rest_api
-from tools import socketio_server, socketio_client
+from tools import socketio_client
 from tools import level_timer as timer
 
 

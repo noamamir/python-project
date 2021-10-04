@@ -110,7 +110,6 @@ class Compute(Resource):
             logger.warningLog('Password sent doesnt match the admin password')
         return
 
-
 class StartLevel(Resource):
     def post(self, level):
         password = requestHeaderAuthorization.parse_args().Authorization
@@ -143,6 +142,17 @@ class GetCurrentLevel(Resource):
     def get(self):
         return {"level": levelHandler.level.levelNumber, "timeLeft": timer.getTimer().timeLeft}
 
+class GetIsLevelRunning(Resource):
+    def get(self, level):
+        password = requestHeaderAuthorization.parse_args().Authorization
+        if password == adminPassword:
+            if levelHandler.level.levelNumber == level and not timer.getTimer().timerPaused() and timer.getTimer().timeLeft is not timer.getTimer().levelTime:
+                return True
+            else:
+                return False
+        else:
+            logger.warningLog('Password sent doesnt match the admin password')
+            return None
 
 class Login(Resource):
     def post(self):
@@ -217,6 +227,7 @@ api.add_resource(SetLevelTime, '/setLevelTime/<int:level>')
 api.add_resource(Timer, '/timeLeft')
 api.add_resource(Login, '/login')
 api.add_resource(GetCurrentLevel, '/currentLevel')
+api.add_resource(GetIsLevelRunning, '/isRunning/<int:level>')
 api.add_resource(StartLevel, '/startLevel/<int:level>')
 api.add_resource(StopCurrentLevel, '/stopCurrentLevel')
 api.add_resource(EndCurrentLevel, '/endCurrentLevel')
