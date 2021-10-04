@@ -44,6 +44,10 @@ io.on('connection', function(socket){
 		console.log('new user submission:' + data);
 		io.emit('new-user-submission', data);
 	});
+	socket.on('set-level-time', function(data){
+    	console.log('set new level time: ' + data);
+    	io.emit('set-level-time', data);
+    });
 });
 
 http.listen(15006, "localhost", function(){

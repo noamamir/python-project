@@ -126,7 +126,8 @@ class StartLevel(Resource):
                 if timer.getTimer().timeLeft is not timer.getTimer().levelTime:
                     logger.infoLog('Cannot Start a new level, theres already a level in progress')
                 else:
-                    initNewLevel(level)
+                    if level <= 3:
+                        initNewLevel(level)
         else:
             logger.warningLog('Password sent doesnt match the admin password')
 
@@ -177,6 +178,8 @@ class SetLevelTime(Resource):
         if password == adminPassword:
             time = request.data
             database.savedLevels[level - 1].levelTime = int(time) * 60
+            currentLevelState = Level(levelNumber=level, levelTime=int(time) * 60)
+            sio.emitEvent(sio.Events.SET_LEVEL_TIME.value, currentLevelState.toJSON())
         else:
             logger.warningLog('Password sent doesnt match the admin password')
 
@@ -209,7 +212,8 @@ def computeAtTimeout():
     while True:
         if timer.getTimer().timeoutSignal:
             compute()
-            initNewLevel(levelHandler.level.levelNumber + 1)
+            if levelHandler.level.levelNumber <= 2:
+                initNewLevel(levelHandler.level.levelNumber + 1)
             timer.getTimer().timeoutSignal = False
         time.sleep(1)
 
