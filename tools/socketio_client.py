@@ -25,8 +25,10 @@ def init():
     sio.connect('http://localhost:15006/', wait=True, wait_timeout=2)
     sio.wait()
 
-def emitEvent(eventName, data = None):
-    sio.emit(event=eventName, data= data)
+
+def emitEvent(eventName, data=None):
+    sio.emit(event=eventName, data=data)
+
 
 class Events(Enum):
     USER_LOGIN = 'user-login'
