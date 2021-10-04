@@ -1,14 +1,6 @@
-# This is a sample Python script.
-import asyncio
-import json
-import threading
 from threading import Thread
-
-import socketio
-from socketIO_client_nexus import SocketIO
-import sio as sio
 import rest_api
-from tools import socketio_server, socketio_client
+from tools import socketio_client
 from tools import level_timer as timer
 
 
