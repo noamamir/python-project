@@ -3,7 +3,7 @@ from models.user import User
 from models.userResult import UserResult
 
 
-def computeLevelScores(users: dict[int, User], levelNum) -> list[UserResult]:
+def computeLevelScores(users: dict[str, User], levelNum) -> list[UserResult]:
     userResults: list[UserResult] = []
 
     for user in users.values():
@@ -14,7 +14,7 @@ def computeLevelScores(users: dict[int, User], levelNum) -> list[UserResult]:
             submittedLevel = user.getSubmittedLevels(levelNum)
             userScore = submittedLevel.score = calculateUserScore(user.username, submittedLevel.levelIndex)
         userResults.append(UserResult(user.username, userScore))
-        
+
     return userResults
 
 def calculateUserScore(username, levelNum):

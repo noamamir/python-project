@@ -2969,3 +2969,106 @@ INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 13:13:40] "GET /timeLeft HTTP/1.1" 200 
 INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 13:13:47] "GET /currentLevel HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 13:13:52] "GET /currentLevel HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 13:13:52] "GET /currentLevel HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.101.236:8081/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.101.236:8081/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633351926.853939 HTTP/1.1" 200 97
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.101.236:8081/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633351975.9532106 HTTP/1.1" 200 97
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 15:53:06] "[35m[1mGET /result/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 15:53:07] "GET /result/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 15:53:07] "GET /result/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 15:53:07] "GET /result/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 15:53:07] "GET /result/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 15:53:07] "GET /result/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.101.236:8081/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633352007.9303453 HTTP/1.1" 200 97
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 15:54:21] "[31m[1mGET /login HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 15:54:29] "[35m[1mGET /result/1 HTTP/1.1[0m" 500 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.101.236:8081/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633352114.0850174 HTTP/1.1" 200 97
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.101.236:8081/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633352135.8237202 HTTP/1.1" 200 97
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633352191.1956606 HTTP/1.1" 200 97
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+INFO:werkzeug: * Running on http://192.168.101.236:8081/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633352306.2572389 HTTP/1.1" 200 97
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 15:58:36] "[35m[1mGET /result/1 HTTP/1.1[0m" 500 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.101.236:8081/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633352342.5565522 HTTP/1.1" 200 97
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.101.236:8081/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633352461.9203346 HTTP/1.1" 200 97
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 16:01:13] "[35m[1mGET /result/1 HTTP/1.1[0m" 500 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.101.236:8081/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633352542.578992 HTTP/1.1" 200 97
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 16:02:47] "[35m[1mGET /result/1 HTTP/1.1[0m" 500 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.101.236:8081/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633352599.8763382 HTTP/1.1" 200 97
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 16:03:32] "[35m[1mGET /result/1 HTTP/1.1[0m" 500 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.101.236:8081/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633352676.9704454 HTTP/1.1" 200 97
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 16:04:45] "[35m[1mGET /result/1 HTTP/1.1[0m" 500 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.101.236:8081/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633352735.0130854 HTTP/1.1" 200 97
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 16:05:40] "[35m[1mGET /result/1 HTTP/1.1[0m" 500 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.101.236:8081/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633352812.0412872 HTTP/1.1" 200 97
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 16:06:56] "[35m[1mGET /result/1 HTTP/1.1[0m" 500 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.101.236:8081/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633352835.9115796 HTTP/1.1" 200 97
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 16:07:21] "[35m[1mGET /result/1 HTTP/1.1[0m" 500 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.101.236:8081/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633352868.8410923 HTTP/1.1" 200 97
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 16:07:52] "[35m[1mGET /result/1 HTTP/1.1[0m" 500 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.101.236:8081/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633352885.511566 HTTP/1.1" 200 97

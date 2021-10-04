@@ -225,6 +225,21 @@ def compute():
     sio.emitEvent(sio.Events.UPDATE_SCOREBOARD.value, levelScoreboard.toJSON())
 
 
+class GetResult(Resource):
+    def get(self, levelNum):
+        args = requestHeaderAuthorization.parse_args()
+        username = args.Authorization
+        files: dict = {}
+        levelIndex = levelNum - 1
+
+        for filename in os.listdir(f"Results/{levelIndex}/{database.usersDictionary[username].id}"):
+            with open(os.path.join(f"Results/{levelIndex}/{database.usersDictionary[username].id}", filename), 'r') as f:
+                files[filename] = f.read()
+
+        return files
+
+
+api.add_resource(GetResult, '/result/<int:levelNum>')
 api.add_resource(GetScoreboard, '/scoreboard/<int:level>')
 api.add_resource(GetSubmissionTime, '/submissionTime/<int:level>')
 api.add_resource(SubmitLevel, '/submit/<int:levelNum>')

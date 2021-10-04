@@ -9,7 +9,7 @@ from models.user import User
 class DataBase:
     def __init__(self):
         self.scoreboards: dict[Scoreboard] = {}
-        self.usersDictionary: dict[int, User] = {0: User(1, 'noam1'), 1: User(2, 'noam2')}
+        self.usersDictionary: dict[str, User] = {'noam123': User(0, 'noam123'), 'noam2': User(1, 'noam2')}
         self.savedLevels = [Level(levelNumber=1, levelMaxPoints=100, levelTime=20),
                             Level(levelNumber=2, levelMaxPoints=100, levelTime=1800),
                             Level(levelNumber=3, levelMaxPoints=100, levelTime=1800)]
