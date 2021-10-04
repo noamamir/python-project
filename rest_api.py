@@ -82,7 +82,7 @@ class StopCurrentLevel(Resource):
             else:
                 timer.getTimer().pauseTimer()
                 sio.emitEvent(sio.Events.STOP_LEVEL.value)
-                logger.infoLog('level paused, timer stopped')
+                logger.infoLog(f'level paused, timer stopped at {timer.getTimer().timeLeft}')
         else:
             logger.warningLog('Password sent doesnt match the admin password')
 
