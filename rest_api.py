@@ -173,6 +173,8 @@ class SetLevelTime(Resource):
         if password == adminPassword:
             time = request.data
             database.savedLevels[level - 1].levelTime = int(time) * 60
+            currentLevelState = Level(levelNumber=level, levelTime=int(time) * 60)
+            sio.emitEvent(sio.Events.SET_LEVEL_TIME.value, currentLevelState.toJSON())
         else:
             logger.warningLog('Password sent doesnt match the admin password')
 

@@ -38,3 +38,4 @@ class Events(Enum):
     STOP_LEVEL = 'stop-level'
     NEXT_LEVEl = 'next-level'
     UPDATE_SCOREBOARD = 'update-scoreboard'
+    SET_LEVEL_TIME = 'set-level-time'
