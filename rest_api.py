@@ -195,7 +195,7 @@ def computeAtTimeout():
     while True:
         if timer.getTimer().timeoutSignal:
             compute()
-            nextLevel()
+            initNewLevel(levelHandler.level.levelNumber + 1)
             timer.getTimer().timeoutSignal = False
 
 
@@ -209,8 +209,6 @@ def compute():
     logger.infoLog(f"Successfully generated scoreboard for level {levelNumber}")
     sio.emitEvent(sio.Events.UPDATE_SCOREBOARD.value, levelScoreboard.toJSON())
 
-def nextLevel():
-    levelHandler
 
 api.add_resource(GetScoreboard, '/scoreboard/<int:level>')
 api.add_resource(GetSubmissionTime, '/submissionTime/<int:level>')

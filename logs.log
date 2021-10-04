@@ -2634,3 +2634,264 @@ INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 10:44:37] "GET /timeLeft HTTP/1.1" 200 
 INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 10:44:37] "GET /timeLeft HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 10:44:37] "GET /timeLeft HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 10:44:38] "GET /timeLeft HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633333969.135482 HTTP/1.1" 200 97
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633334039.9822195 HTTP/1.1" 200 97
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 10:54:16] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 10:54:22] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Cannot Start a new level, theres already a level in progress
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 10:54:22] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 10:54:25] "OPTIONS /stopCurrentLevel HTTP/1.1" 200 -
+INFO:root:level paused, timer stopped at 51
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 10:54:26] "POST /stopCurrentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 10:54:29] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Continuing level 1, timer continues at: 50
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 10:54:29] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 10:54:34] "OPTIONS /stopCurrentLevel HTTP/1.1" 200 -
+INFO:root:level paused, timer stopped at 46
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 10:54:34] "POST /stopCurrentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 10:54:36] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Continuing level 1, timer continues at: 45
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 10:54:37] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 10:54:43] "OPTIONS /stopCurrentLevel HTTP/1.1" 200 -
+INFO:root:level paused, timer stopped at 39
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 10:54:43] "POST /stopCurrentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 10:56:18] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Continuing level 1, timer continues at: 38
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 10:56:18] "POST /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Computing user results for level 1
+INFO:root:Successfully generated scoreboard for level 1
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 10:57:38] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 10:57:38] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 10:57:39] "GET /submissionTime/1 HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 10:57:39] "GET /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:02:32] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:02:32] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:02:32] "GET /submissionTime/1 HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:02:32] "GET /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:10:42] "GET /currentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:10:43] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:10:43] "[33mOPTIONS /isRunning/1 HTTP/1.1[0m" 404 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:10:43] "GET /submissionTime/1 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:12:27] "GET /currentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:12:27] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+WARNING:root:Couldnt get scoreboard for level :0, scoreboard doesnt exist
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:12:27] "GET /scoreboard/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:12:27] "OPTIONS /submissionTime/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:12:27] "GET /currentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:12:27] "[33mOPTIONS /isRunning/1 HTTP/1.1[0m" 404 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:12:27] "GET /submissionTime/1 HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:12:27] "GET /submissionTime/0 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633335144.800221 HTTP/1.1" 200 97
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:12:40] "GET /currentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:12:41] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:12:41] "[33mOPTIONS /isRunning/1 HTTP/1.1[0m" 404 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:12:41] "GET /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:13:52] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:root:Computing user results for level 1
+INFO:root:Successfully generated scoreboard for level 1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633335657.127133 HTTP/1.1" 200 97
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:21:04] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:21:04] "GET /currentLevel HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:21:04] "GET /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:21:04] "[33mOPTIONS /isRunning/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:21:11] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:root:Computing user results for level 1
+INFO:root:Successfully generated scoreboard for level 1
+INFO:root:Starting a new level, timer started for level 2
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:21:34] "GET /currentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:21:34] "[33mOPTIONS /isRunning/2 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:21:36] "GET /currentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:21:37] "GET /currentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:21:37] "[33mOPTIONS /isRunning/2 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:21:38] "GET /currentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:21:45] "GET /currentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:21:46] "[33mOPTIONS /isRunning/2 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:21:48] "GET /currentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:21:48] "GET /currentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:21:49] "[33mOPTIONS /isRunning/2 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:21:51] "GET /currentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:21:54] "GET /currentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:21:54] "[33mOPTIONS /isRunning/2 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:22:01] "GET /currentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:22:56] "GET /currentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:22:56] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:22:56] "GET /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:23:01] "GET /currentLevel HTTP/1.1" 200 -
+WARNING:root:Couldnt get scoreboard for level :0, scoreboard doesnt exist
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:23:01] "GET /scoreboard/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:23:01] "OPTIONS /submissionTime/0 HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:23:02] "GET /submissionTime/0 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633335788.3982959 HTTP/1.1" 200 97
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:23:17] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:23:17] "GET /currentLevel HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:23:17] "GET /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:23:17] "[33mOPTIONS /isRunning/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:23:46] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:root:Computing user results for level 1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633335868.4896011 HTTP/1.1" 200 97
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:24:39] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:root:Computing user results for level 1
+INFO:root:Successfully generated scoreboard for level 1
+INFO:root:Starting a new level, timer started for level 2
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:25:23] "GET /currentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:25:23] "[33mOPTIONS /isRunning/2 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:25:24] "GET /currentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:25:57] "GET /timeLeft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:25:58] "GET /timeLeft HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633336135.8972874 HTTP/1.1" 200 97
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:29:12] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:29:12] "GET /currentLevel HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:29:13] "GET /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:29:13] "[33mOPTIONS /isRunning/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:29:16] "GET /currentLevel HTTP/1.1" 200 -
+WARNING:root:Couldnt get scoreboard for level :0, scoreboard doesnt exist
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:29:16] "GET /scoreboard/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:29:16] "OPTIONS /submissionTime/0 HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:29:16] "GET /submissionTime/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:29:22] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:root:Computing user results for level 1
+INFO:root:Successfully generated scoreboard for level 1
+INFO:root:Starting a new level, timer started for level 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633336186.6901426 HTTP/1.1" 200 97
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:29:49] "GET /currentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:29:49] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:29:50] "[33mOPTIONS /isRunning/1 HTTP/1.1[0m" 404 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:29:50] "GET /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:29:59] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:root:Computing user results for level 1
+INFO:root:Successfully generated scoreboard for level 1
+INFO:root:Starting a new level, timer started for level 2
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:30:26] "GET /currentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:30:26] "[33mOPTIONS /isRunning/2 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:30:27] "GET /currentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:30:28] "GET /currentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:30:28] "[33mOPTIONS /isRunning/2 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:30:30] "GET /currentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:30:32] "GET /currentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:30:32] "[33mOPTIONS /isRunning/2 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:30:36] "GET /currentLevel HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:31:04] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:31:04] "OPTIONS /submissionTime/0 HTTP/1.1" 200 -
+WARNING:root:Couldnt get scoreboard for level :0, scoreboard doesnt exist
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:31:05] "GET /currentLevel HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:31:05] "GET /scoreboard/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:31:05] "GET /submissionTime/1 HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:31:05] "GET /submissionTime/0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:31:05] "GET /currentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:31:05] "[33mOPTIONS /isRunning/1 HTTP/1.1[0m" 404 -
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633336262.9607718 HTTP/1.1" 200 97
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:31:09] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:root:Computing user results for level 1
+INFO:root:Successfully generated scoreboard for level 1
+INFO:root:Starting a new level, timer started for level 2
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:31:41] "GET /currentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:31:42] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:31:42] "GET /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:31:42] "GET /currentLevel HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633336305.5630965 HTTP/1.1" 200 97
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:32:00] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:root:Computing user results for level 1
+INFO:root:Successfully generated scoreboard for level 1
+INFO:root:Starting a new level, timer started for level 2
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:32:13] "GET /currentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:32:14] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:32:14] "GET /submissionTime/1 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:15006
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.169.50:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:32:24] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://localhost:15006 "GET /socket.io/?transport=polling&EIO=4&t=1633336341.3501096 HTTP/1.1" 200 97
+INFO:root:Starting a new level, timer started for level 1
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:32:30] "[35m[1mPOST /startLevel/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:32:36] "GET /currentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:32:36] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:32:36] "GET /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:32:56] "[33mOPTIONS /isRunning/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:33:23] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:33:23] "GET /currentLevel HTTP/1.1" 200 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:33:24] "GET /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:33:28] "[33mOPTIONS /isRunning/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:33:33] "GET /currentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:33:34] "OPTIONS /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:33:34] "[33mOPTIONS /isRunning/1 HTTP/1.1[0m" 404 -
+WARNING:root:Couldnt get submittion time, user or level submittion invalid
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:33:34] "GET /submissionTime/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:33:40] "OPTIONS /startLevel/1 HTTP/1.1" 200 -
+INFO:root:Starting a new level, timer started for level 1
+INFO:root:Computing user results for level 1
+INFO:root:Successfully generated scoreboard for level 1
+INFO:root:Starting a new level, timer started for level 2
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:33:48] "GET /currentLevel HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:33:48] "[33mOPTIONS /isRunning/2 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2021 11:33:49] "GET /currentLevel HTTP/1.1" 200 -
